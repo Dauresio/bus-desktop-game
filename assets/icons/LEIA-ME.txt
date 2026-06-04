@@ -1,0 +1,1 @@
+# Coloque aqui: app_icon.png (512x512 recomendado)

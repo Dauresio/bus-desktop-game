@@ -1,0 +1,5 @@
+C:/Projects/_busJamPuzzle/build/BusJamPuzzle_autogen/include/../2PZEZPHIBF/moc_Enums.cpp.json
+C:/Projects/_busJamPuzzle/build/BusJamPuzzle_autogen/include/../GCRDZAAASK/moc_BusListModel.cpp.json
+C:/Projects/_busJamPuzzle/build/BusJamPuzzle_autogen/include/../GCRDZAAASK/moc_GameController.cpp.json
+C:/Projects/_busJamPuzzle/build/BusJamPuzzle_autogen/include/../GCRDZAAASK/moc_PassengerListModel.cpp.json
+C:/Projects/_busJamPuzzle/build/BusJamPuzzle_autogen/include/../GCRDZAAASK/moc_PlatformListModel.cpp.json

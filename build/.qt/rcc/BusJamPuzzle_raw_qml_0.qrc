@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="/BusJamPuzzle/">
+    <file alias="qml/main.qml">C:/Projects/_busJamPuzzle/qml/main.qml</file>
+    <file alias="qml/screens/MainMenuScreen.qml">C:/Projects/_busJamPuzzle/qml/screens/MainMenuScreen.qml</file>
+    <file alias="qml/screens/LevelSelectScreen.qml">C:/Projects/_busJamPuzzle/qml/screens/LevelSelectScreen.qml</file>
+    <file alias="qml/screens/GameScreen.qml">C:/Projects/_busJamPuzzle/qml/screens/GameScreen.qml</file>
+    <file alias="qml/components/BoardView.qml">C:/Projects/_busJamPuzzle/qml/components/BoardView.qml</file>
+    <file alias="qml/components/BusItem.qml">C:/Projects/_busJamPuzzle/qml/components/BusItem.qml</file>
+    <file alias="qml/components/PassengerItem.qml">C:/Projects/_busJamPuzzle/qml/components/PassengerItem.qml</file>
+    <file alias="qml/components/PlatformView.qml">C:/Projects/_busJamPuzzle/qml/components/PlatformView.qml</file>
+    <file alias="qml/components/HUD.qml">C:/Projects/_busJamPuzzle/qml/components/HUD.qml</file>
+    <file alias="qml/style/Theme.qml">C:/Projects/_busJamPuzzle/qml/style/Theme.qml</file>
+    <file alias="qml/style/Sizes.qml">C:/Projects/_busJamPuzzle/qml/style/Sizes.qml</file>
+  </qresource>
+</RCC>
+

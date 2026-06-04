@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/BusJamPuzzle">C:/Projects/_busJamPuzzle/build/BusJamPuzzle</file>
+
+  </qresource>
+</RCC>

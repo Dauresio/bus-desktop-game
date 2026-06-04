@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cmake --version)",
+      "Bash(where qmake *)",
+      "Bash(where ninja *)",
+      "PowerShell(Get-ChildItem \"C:\\\\Qt\" -ErrorAction SilentlyContinue | Select-Object Name; Get-ChildItem \"C:\\\\Qt6\" -ErrorAction SilentlyContinue | Select-Object Name; Get-ChildItem \"$env:USERPROFILE\\\\Qt\" -ErrorAction SilentlyContinue | Select-Object Name)",
+      "PowerShell(Test-Path \"C:\\\\Qt\\\\6.11.0\\\\mingw_64\"; \\(Get-ChildItem \"C:\\\\Qt\\\\6.11.0\\\\mingw_64\"\\).Count; Get-ChildItem \"C:\\\\Qt\\\\6.11.0\" | Select-Object Name)",
+      "PowerShell(cmd /c \"dir C:\\\\Qt\\\\6.11.0 2>&1\")",
+      "PowerShell(cmd /c \"dir C:\\\\Qt 2>&1\")",
+      "PowerShell(cmd /c \"dir C:\\\\Qt\\\\Tools 2>&1\")",
+      "PowerShell($env:PATH = \"C:\\\\Qt\\\\Tools\\\\mingw1310_64\\\\bin;C:\\\\Qt\\\\Tools\\\\CMake_64\\\\bin;C:\\\\Qt\\\\Tools\\\\Ninja;C:\\\\Qt\\\\6.11.0\\\\mingw_64\\\\bin;$env:PATH\"; Set-Location \"C:\\\\Projects\\\\_BusJamPuzzle\"; cmake --build build --parallel 2>&1)",
+      "PowerShell($env:PATH = \"C:\\\\Qt\\\\Tools\\\\mingw1310_64\\\\bin;C:\\\\Qt\\\\6.11.0\\\\mingw_64\\\\bin;$env:PATH\"; Set-Location \"C:\\\\Projects\\\\_BusJamPuzzle\"; Start-Process \".\\\\build\\\\BusJamPuzzle.exe\")",
+      "PowerShell($env:PATH = \"C:\\\\Qt\\\\Tools\\\\mingw1310_64\\\\bin;C:\\\\Qt\\\\6.11.0\\\\mingw_64\\\\bin;$env:PATH\"; windeployqt6 --qmldir \"C:\\\\Projects\\\\_BusJamPuzzle\\\\qml\" \"C:\\\\Projects\\\\_BusJamPuzzle\\\\build\\\\BusJamPuzzle.exe\" 2>&1)",
+      "PowerShell($env:PATH = \"C:\\\\Qt\\\\Tools\\\\mingw1310_64\\\\bin;$env:PATH\"; Start-Process \"C:\\\\Projects\\\\_BusJamPuzzle\\\\build\\\\BusJamPuzzle.exe\" -Wait -PassThru | Select-Object ExitCode)"
+    ]
+  }
+}

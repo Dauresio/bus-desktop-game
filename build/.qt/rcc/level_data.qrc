@@ -1,0 +1,15 @@
+<RCC>
+  <qresource prefix="/levels">
+    <file alias="levels/level_001.json">C:/Projects/_busJamPuzzle/levels/level_001.json</file>
+    <file alias="levels/level_002.json">C:/Projects/_busJamPuzzle/levels/level_002.json</file>
+    <file alias="levels/level_003.json">C:/Projects/_busJamPuzzle/levels/level_003.json</file>
+    <file alias="levels/level_004.json">C:/Projects/_busJamPuzzle/levels/level_004.json</file>
+    <file alias="levels/level_005.json">C:/Projects/_busJamPuzzle/levels/level_005.json</file>
+    <file alias="levels/level_006.json">C:/Projects/_busJamPuzzle/levels/level_006.json</file>
+    <file alias="levels/level_007.json">C:/Projects/_busJamPuzzle/levels/level_007.json</file>
+    <file alias="levels/level_008.json">C:/Projects/_busJamPuzzle/levels/level_008.json</file>
+    <file alias="levels/level_009.json">C:/Projects/_busJamPuzzle/levels/level_009.json</file>
+    <file alias="levels/level_010.json">C:/Projects/_busJamPuzzle/levels/level_010.json</file>
+  </qresource>
+</RCC>
+

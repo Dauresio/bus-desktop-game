@@ -1,0 +1,863 @@
+[
+    {
+        "classes": [
+            {
+                "className": "BusJamEnums",
+                "enums": [
+                    {
+                        "isClass": false,
+                        "isFlag": false,
+                        "lineNumber": 56,
+                        "name": "BusColor",
+                        "type": "quint8",
+                        "values": [
+                            "Red",
+                            "Blue",
+                            "Green",
+                            "Yellow",
+                            "Purple"
+                        ]
+                    },
+                    {
+                        "isClass": false,
+                        "isFlag": false,
+                        "lineNumber": 71,
+                        "name": "Direction",
+                        "type": "quint8",
+                        "values": [
+                            "Up",
+                            "Down",
+                            "Left",
+                            "Right"
+                        ]
+                    },
+                    {
+                        "isClass": false,
+                        "isFlag": false,
+                        "lineNumber": 85,
+                        "name": "PassengerState",
+                        "type": "quint8",
+                        "values": [
+                            "Waiting",
+                            "Boarding",
+                            "Boarded"
+                        ]
+                    },
+                    {
+                        "isClass": false,
+                        "isFlag": false,
+                        "lineNumber": 98,
+                        "name": "PlatformState",
+                        "type": "quint8",
+                        "values": [
+                            "Free",
+                            "Occupied",
+                            "Completed"
+                        ]
+                    },
+                    {
+                        "isClass": false,
+                        "isFlag": false,
+                        "lineNumber": 111,
+                        "name": "GameState",
+                        "type": "quint8",
+                        "values": [
+                            "Menu",
+                            "LevelSelection",
+                            "Playing",
+                            "Paused",
+                            "Won",
+                            "Lost"
+                        ]
+                    },
+                    {
+                        "isClass": false,
+                        "isFlag": false,
+                        "lineNumber": 127,
+                        "name": "MoveOutcome",
+                        "type": "quint8",
+                        "values": [
+                            "MoveSuccess",
+                            "MoveBlocked",
+                            "MoveAlreadyLeft",
+                            "MoveBusNotFound",
+                            "MoveNoPlatform",
+                            "MoveNotPlaying"
+                        ]
+                    }
+                ],
+                "lineNumber": 43,
+                "object": true,
+                "qualifiedClassName": "BusJamEnums",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "Enums.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "BusListModel",
+                "enums": [
+                    {
+                        "isClass": false,
+                        "isFlag": false,
+                        "lineNumber": 44,
+                        "name": "BusRole",
+                        "values": [
+                            "BusIdRole",
+                            "ColorIndexRole",
+                            "CapacityRole",
+                            "BoardedCountRole",
+                            "BoardRowRole",
+                            "BoardColRole",
+                            "DirectionEnumRole",
+                            "IsActiveRole",
+                            "IsAtPlatformRole",
+                            "HasLeftRole"
+                        ]
+                    }
+                ],
+                "lineNumber": 37,
+                "object": true,
+                "qualifiedClassName": "BusListModel",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QAbstractListModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "BusListModel.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "GameController",
+                "lineNumber": 117,
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "busId",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 32,
+                        "isConst": true,
+                        "lineNumber": 258,
+                        "name": "boardedCountFor",
+                        "returnType": "int"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "levelId",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 33,
+                        "isConst": true,
+                        "lineNumber": 265,
+                        "name": "starsForLevel",
+                        "returnType": "int"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "busId",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 34,
+                        "isConst": true,
+                        "lineNumber": 272,
+                        "name": "canBusMove",
+                        "returnType": "bool"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "lineNumber": 123,
+                        "name": "gameState",
+                        "notify": "gameStateChanged",
+                        "override": false,
+                        "read": "gameState",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "GameState",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "lineNumber": 127,
+                        "name": "currentLevelId",
+                        "notify": "currentLevelChanged",
+                        "override": false,
+                        "read": "currentLevelId",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "lineNumber": 131,
+                        "name": "moveCount",
+                        "notify": "moveCountChanged",
+                        "override": false,
+                        "read": "moveCount",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "lineNumber": 135,
+                        "name": "elapsedSeconds",
+                        "notify": "elapsedSecondsChanged",
+                        "override": false,
+                        "read": "elapsedSeconds",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 4,
+                        "lineNumber": 139,
+                        "name": "remainingSeconds",
+                        "notify": "remainingSecondsChanged",
+                        "override": false,
+                        "read": "remainingSeconds",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 5,
+                        "lineNumber": 143,
+                        "name": "remainingPassengers",
+                        "notify": "remainingPassengersChanged",
+                        "override": false,
+                        "read": "remainingPassengers",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 6,
+                        "lineNumber": 147,
+                        "name": "remainingBuses",
+                        "notify": "remainingBusesChanged",
+                        "override": false,
+                        "read": "remainingBuses",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 7,
+                        "lineNumber": 151,
+                        "name": "currentScore",
+                        "notify": "currentScoreChanged",
+                        "override": false,
+                        "read": "currentScore",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 8,
+                        "lineNumber": 155,
+                        "name": "highestUnlockedLevel",
+                        "notify": "progressChanged",
+                        "override": false,
+                        "read": "highestUnlockedLevel",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 9,
+                        "lineNumber": 159,
+                        "name": "canUndo",
+                        "notify": "undoAvailabilityChanged",
+                        "override": false,
+                        "read": "canUndo",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 10,
+                        "lineNumber": 163,
+                        "name": "canHint",
+                        "notify": "hintAvailabilityChanged",
+                        "override": false,
+                        "read": "canHint",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 11,
+                        "lineNumber": 178,
+                        "name": "busModel",
+                        "override": false,
+                        "read": "busModel",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QAbstractListModel*",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 12,
+                        "lineNumber": 188,
+                        "name": "passengerModel",
+                        "override": false,
+                        "read": "passengerModel",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QAbstractListModel*",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 13,
+                        "lineNumber": 198,
+                        "name": "platformModel",
+                        "override": false,
+                        "read": "platformModel",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QAbstractListModel*",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 14,
+                        "lineNumber": 205,
+                        "name": "boardRows",
+                        "notify": "currentLevelChanged",
+                        "override": false,
+                        "read": "boardRows",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 15,
+                        "lineNumber": 209,
+                        "name": "boardCols",
+                        "notify": "currentLevelChanged",
+                        "override": false,
+                        "read": "boardCols",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "virtual": false
+                    }
+                ],
+                "qualifiedClassName": "GameController",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 295,
+                        "name": "gameStateChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "lineNumber": 296,
+                        "name": "currentLevelChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "lineNumber": 297,
+                        "name": "moveCountChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "lineNumber": 298,
+                        "name": "elapsedSecondsChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 4,
+                        "lineNumber": 299,
+                        "name": "remainingSecondsChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 5,
+                        "lineNumber": 300,
+                        "name": "remainingPassengersChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 6,
+                        "lineNumber": 301,
+                        "name": "remainingBusesChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 7,
+                        "lineNumber": 302,
+                        "name": "currentScoreChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 8,
+                        "lineNumber": 303,
+                        "name": "progressChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 9,
+                        "lineNumber": 304,
+                        "name": "undoAvailabilityChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 10,
+                        "lineNumber": 305,
+                        "name": "hintAvailabilityChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "busId",
+                                "type": "int"
+                            },
+                            {
+                                "name": "outcome",
+                                "type": "MoveOutcome"
+                            }
+                        ],
+                        "index": 11,
+                        "lineNumber": 308,
+                        "name": "busTapped",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "busId",
+                                "type": "int"
+                            },
+                            {
+                                "name": "fromRow",
+                                "type": "int"
+                            },
+                            {
+                                "name": "fromCol",
+                                "type": "int"
+                            },
+                            {
+                                "name": "toRow",
+                                "type": "int"
+                            },
+                            {
+                                "name": "toCol",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 12,
+                        "lineNumber": 309,
+                        "name": "busMoved",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "passengerId",
+                                "type": "int"
+                            },
+                            {
+                                "name": "busId",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 13,
+                        "lineNumber": 310,
+                        "name": "passengerBoarded",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "busId",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 14,
+                        "lineNumber": 311,
+                        "name": "busLeft",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "result",
+                                "type": "LevelResult"
+                            }
+                        ],
+                        "index": 15,
+                        "lineNumber": 312,
+                        "name": "levelWon",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "result",
+                                "type": "LevelResult"
+                            }
+                        ],
+                        "index": 16,
+                        "lineNumber": 313,
+                        "name": "levelLost",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "elapsed",
+                                "type": "int"
+                            },
+                            {
+                                "name": "remaining",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 17,
+                        "lineNumber": 314,
+                        "name": "timerTick",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 18,
+                        "lineNumber": 315,
+                        "name": "hintRequested",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 19,
+                        "lineNumber": 316,
+                        "name": "progressSaved",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "message",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 20,
+                        "lineNumber": 317,
+                        "name": "errorOccurred",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "index": 21,
+                        "lineNumber": 279,
+                        "name": "goToMenu",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 22,
+                        "lineNumber": 280,
+                        "name": "goToLevelSelection",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "levelId",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 23,
+                        "lineNumber": 281,
+                        "name": "loadLevel",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 24,
+                        "lineNumber": 282,
+                        "name": "pauseGame",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 25,
+                        "lineNumber": 283,
+                        "name": "resumeGame",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 26,
+                        "lineNumber": 284,
+                        "name": "restartLevel",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 27,
+                        "lineNumber": 285,
+                        "name": "nextLevel",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "busId",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 28,
+                        "lineNumber": 289,
+                        "name": "onBusTapped",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 29,
+                        "lineNumber": 290,
+                        "name": "requestUndo",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 30,
+                        "lineNumber": 291,
+                        "name": "requestHint",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "index": 31,
+                        "lineNumber": 320,
+                        "name": "onTimerTick",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "GameController.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "PassengerListModel",
+                "enums": [
+                    {
+                        "isClass": false,
+                        "isFlag": false,
+                        "lineNumber": 27,
+                        "name": "PassengerRole",
+                        "values": [
+                            "PassengerIdRole",
+                            "ColorIndexRole",
+                            "CellRowRole",
+                            "CellColRole",
+                            "StateEnumRole",
+                            "IsWaitingRole",
+                            "IsBoardingRole",
+                            "IsBoardedRole"
+                        ]
+                    }
+                ],
+                "lineNumber": 22,
+                "object": true,
+                "qualifiedClassName": "PassengerListModel",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QAbstractListModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "PassengerListModel.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "PlatformListModel",
+                "enums": [
+                    {
+                        "isClass": false,
+                        "isFlag": false,
+                        "lineNumber": 28,
+                        "name": "PlatformRole",
+                        "values": [
+                            "PlatformIdRole",
+                            "ColorIndexRole",
+                            "PlatformRowRole",
+                            "PlatformColRole",
+                            "ExitDirEnumRole",
+                            "StateEnumRole",
+                            "IsFreeRole",
+                            "IsOccupiedRole",
+                            "IsCompletedRole"
+                        ]
+                    }
+                ],
+                "lineNumber": 23,
+                "object": true,
+                "qualifiedClassName": "PlatformListModel",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QAbstractListModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "PlatformListModel.h",
+        "outputRevision": 69
+    }
+]

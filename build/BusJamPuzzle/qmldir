@@ -1,0 +1,15 @@
+module BusJamPuzzle
+typeinfo BusJamPuzzle.qmltypes
+prefer :/BusJamPuzzle/
+MainMenuScreen 1.0 qml/screens/MainMenuScreen.qml
+LevelSelectScreen 1.0 qml/screens/LevelSelectScreen.qml
+GameScreen 1.0 qml/screens/GameScreen.qml
+BoardView 1.0 qml/components/BoardView.qml
+BusItem 1.0 qml/components/BusItem.qml
+PassengerItem 1.0 qml/components/PassengerItem.qml
+PlatformView 1.0 qml/components/PlatformView.qml
+HUD 1.0 qml/components/HUD.qml
+Theme 1.0 qml/style/Theme.qml
+Sizes 1.0 qml/style/Sizes.qml
+depends QtQuick
+

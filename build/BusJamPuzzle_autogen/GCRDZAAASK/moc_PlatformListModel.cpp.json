@@ -1,0 +1,37 @@
+{
+    "classes": [
+        {
+            "className": "PlatformListModel",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 28,
+                    "name": "PlatformRole",
+                    "values": [
+                        "PlatformIdRole",
+                        "ColorIndexRole",
+                        "PlatformRowRole",
+                        "PlatformColRole",
+                        "ExitDirEnumRole",
+                        "StateEnumRole",
+                        "IsFreeRole",
+                        "IsOccupiedRole",
+                        "IsCompletedRole"
+                    ]
+                }
+            ],
+            "lineNumber": 23,
+            "object": true,
+            "qualifiedClassName": "PlatformListModel",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "PlatformListModel.h",
+    "outputRevision": 69
+}

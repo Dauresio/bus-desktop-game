@@ -1,0 +1,38 @@
+{
+    "classes": [
+        {
+            "className": "BusListModel",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 44,
+                    "name": "BusRole",
+                    "values": [
+                        "BusIdRole",
+                        "ColorIndexRole",
+                        "CapacityRole",
+                        "BoardedCountRole",
+                        "BoardRowRole",
+                        "BoardColRole",
+                        "DirectionEnumRole",
+                        "IsActiveRole",
+                        "IsAtPlatformRole",
+                        "HasLeftRole"
+                    ]
+                }
+            ],
+            "lineNumber": 37,
+            "object": true,
+            "qualifiedClassName": "BusListModel",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "BusListModel.h",
+    "outputRevision": 69
+}

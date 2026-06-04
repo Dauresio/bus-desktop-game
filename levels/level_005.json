@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": 5,
+  "name": "Autocarro Grande",
+  "difficulty": 2,
+  "rows": 8,
+  "cols": 8,
+  "timeLimitSecs": 0,
+
+  "buses": [
+    { "id": 0, "color": "Red",    "capacity": 6, "row": 2, "col": 0, "direction": "Right" },
+    { "id": 1, "color": "Blue",   "capacity": 4, "row": 5, "col": 0, "direction": "Right" },
+    { "id": 2, "color": "Yellow", "capacity": 6, "row": 7, "col": 0, "direction": "Right" }
+  ],
+
+  "passengers": [
+    { "id": 0, "color": "Red",    "row": 2, "col": 2 },
+    { "id": 1, "color": "Red",    "row": 2, "col": 3 },
+    { "id": 2, "color": "Red",    "row": 2, "col": 4 },
+    { "id": 3, "color": "Red",    "row": 3, "col": 3 },
+    { "id": 4, "color": "Red",    "row": 3, "col": 4 },
+    { "id": 5, "color": "Red",    "row": 3, "col": 5 },
+    { "id": 6, "color": "Blue",   "row": 5, "col": 3 },
+    { "id": 7, "color": "Blue",   "row": 5, "col": 4 },
+    { "id": 8, "color": "Blue",   "row": 5, "col": 5 },
+    { "id": 9, "color": "Blue",   "row": 5, "col": 6 },
+    { "id":10, "color": "Yellow", "row": 7, "col": 2 },
+    { "id":11, "color": "Yellow", "row": 7, "col": 3 },
+    { "id":12, "color": "Yellow", "row": 7, "col": 4 },
+    { "id":13, "color": "Yellow", "row": 7, "col": 5 },
+    { "id":14, "color": "Yellow", "row": 7, "col": 6 },
+    { "id":15, "color": "Yellow", "row": 6, "col": 4 }
+  ],
+
+  "platforms": [
+    { "id": 0, "color": "Red",    "row": 2, "col": 7, "exitDirection": "Right" },
+    { "id": 1, "color": "Blue",   "row": 5, "col": 7, "exitDirection": "Right" },
+    { "id": 2, "color": "Yellow", "row": 7, "col": 7, "exitDirection": "Right" },
+    { "id": 3, "color": "Green",  "row": 0, "col": 7, "exitDirection": "Right" }
+  ]
+}

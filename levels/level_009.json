@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": 9,
+  "name": "Autocarro Expresso",
+  "difficulty": 4,
+  "rows": 8,
+  "cols": 10,
+  "timeLimitSecs": 120,
+
+  "buses": [
+    { "id": 0, "color": "Red",    "capacity": 12, "row": 3, "col": 0, "direction": "Right" },
+    { "id": 1, "color": "Blue",   "capacity": 8,  "row": 6, "col": 0, "direction": "Right" },
+    { "id": 2, "color": "Green",  "capacity": 4,  "row": 1, "col": 0, "direction": "Right" },
+    { "id": 3, "color": "Yellow", "capacity": 4,  "row": 7, "col": 0, "direction": "Right" }
+  ],
+
+  "passengers": [
+    { "id": 0,  "color": "Red", "row": 2, "col": 3 },
+    { "id": 1,  "color": "Red", "row": 2, "col": 4 },
+    { "id": 2,  "color": "Red", "row": 2, "col": 5 },
+    { "id": 3,  "color": "Red", "row": 2, "col": 6 },
+    { "id": 4,  "color": "Red", "row": 3, "col": 3 },
+    { "id": 5,  "color": "Red", "row": 3, "col": 4 },
+    { "id": 6,  "color": "Red", "row": 3, "col": 5 },
+    { "id": 7,  "color": "Red", "row": 3, "col": 6 },
+    { "id": 8,  "color": "Red", "row": 4, "col": 4 },
+    { "id": 9,  "color": "Red", "row": 4, "col": 5 },
+    { "id": 10, "color": "Red", "row": 4, "col": 6 },
+    { "id": 11, "color": "Red", "row": 4, "col": 7 },
+    { "id": 12, "color": "Blue", "row": 5, "col": 3 },
+    { "id": 13, "color": "Blue", "row": 5, "col": 4 },
+    { "id": 14, "color": "Blue", "row": 5, "col": 5 },
+    { "id": 15, "color": "Blue", "row": 5, "col": 6 },
+    { "id": 16, "color": "Blue", "row": 6, "col": 4 },
+    { "id": 17, "color": "Blue", "row": 6, "col": 5 },
+    { "id": 18, "color": "Blue", "row": 6, "col": 6 },
+    { "id": 19, "color": "Blue", "row": 6, "col": 7 },
+    { "id": 20, "color": "Green",  "row": 1, "col": 5 },
+    { "id": 21, "color": "Green",  "row": 1, "col": 6 },
+    { "id": 22, "color": "Green",  "row": 0, "col": 5 },
+    { "id": 23, "color": "Green",  "row": 0, "col": 6 },
+    { "id": 24, "color": "Yellow", "row": 7, "col": 4 },
+    { "id": 25, "color": "Yellow", "row": 7, "col": 5 },
+    { "id": 26, "color": "Yellow", "row": 7, "col": 6 },
+    { "id": 27, "color": "Yellow", "row": 7, "col": 7 }
+  ],
+
+  "platforms": [
+    { "id": 0, "color": "Red",    "row": 3, "col": 9, "exitDirection": "Right" },
+    { "id": 1, "color": "Blue",   "row": 6, "col": 9, "exitDirection": "Right" },
+    { "id": 2, "color": "Green",  "row": 0, "col": 9, "exitDirection": "Right" },
+    { "id": 3, "color": "Yellow", "row": 7, "col": 9, "exitDirection": "Right" },
+    { "id": 4, "color": "Purple", "row": 1, "col": 9, "exitDirection": "Right" },
+    { "id": 5, "color": "Purple", "row": 5, "col": 9, "exitDirection": "Right" }
+  ]
+}

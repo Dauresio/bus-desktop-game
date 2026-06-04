@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": 1,
+  "name": "Tutorial — Caminho Livre",
+  "difficulty": 1,
+  "rows": 8,
+  "cols": 8,
+  "timeLimitSecs": 0,
+
+  "buses": [
+    {
+      "id": 0,
+      "color": "Red",
+      "capacity": 4,
+      "row": 2,
+      "col": 0,
+      "direction": "Right"
+    },
+    {
+      "id": 1,
+      "color": "Blue",
+      "capacity": 6,
+      "row": 5,
+      "col": 0,
+      "direction": "Right"
+    }
+  ],
+
+  "passengers": [
+    { "id": 0, "color": "Red",  "row": 2, "col": 2 },
+    { "id": 1, "color": "Red",  "row": 2, "col": 3 },
+    { "id": 2, "color": "Red",  "row": 2, "col": 4 },
+    { "id": 3, "color": "Red",  "row": 2, "col": 5 },
+    { "id": 4, "color": "Blue", "row": 5, "col": 2 },
+    { "id": 5, "color": "Blue", "row": 5, "col": 3 },
+    { "id": 6, "color": "Blue", "row": 5, "col": 4 }
+  ],
+
+  "platforms": [
+    {
+      "id": 0,
+      "color": "Red",
+      "row": 2,
+      "col": 7,
+      "exitDirection": "Right"
+    },
+    {
+      "id": 1,
+      "color": "Blue",
+      "row": 5,
+      "col": 7,
+      "exitDirection": "Right"
+    },
+    {
+      "id": 2,
+      "color": "Green",
+      "row": 0,
+      "col": 7,
+      "exitDirection": "Right"
+    },
+    {
+      "id": 3,
+      "color": "Yellow",
+      "row": 7,
+      "col": 7,
+      "exitDirection": "Right"
+    }
+  ]
+}

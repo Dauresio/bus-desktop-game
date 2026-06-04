@@ -1,0 +1,101 @@
+{
+    "classes": [
+        {
+            "className": "BusJamEnums",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 56,
+                    "name": "BusColor",
+                    "type": "quint8",
+                    "values": [
+                        "Red",
+                        "Blue",
+                        "Green",
+                        "Yellow",
+                        "Purple"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 71,
+                    "name": "Direction",
+                    "type": "quint8",
+                    "values": [
+                        "Up",
+                        "Down",
+                        "Left",
+                        "Right"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 85,
+                    "name": "PassengerState",
+                    "type": "quint8",
+                    "values": [
+                        "Waiting",
+                        "Boarding",
+                        "Boarded"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 98,
+                    "name": "PlatformState",
+                    "type": "quint8",
+                    "values": [
+                        "Free",
+                        "Occupied",
+                        "Completed"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 111,
+                    "name": "GameState",
+                    "type": "quint8",
+                    "values": [
+                        "Menu",
+                        "LevelSelection",
+                        "Playing",
+                        "Paused",
+                        "Won",
+                        "Lost"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 127,
+                    "name": "MoveOutcome",
+                    "type": "quint8",
+                    "values": [
+                        "MoveSuccess",
+                        "MoveBlocked",
+                        "MoveAlreadyLeft",
+                        "MoveBusNotFound",
+                        "MoveNoPlatform",
+                        "MoveNotPlaying"
+                    ]
+                }
+            ],
+            "lineNumber": 43,
+            "object": true,
+            "qualifiedClassName": "BusJamEnums",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "Enums.h",
+    "outputRevision": 69
+}

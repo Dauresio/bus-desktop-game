@@ -1,0 +1,7 @@
+module BusJamPuzzle.components
+
+BoardView    1.0 BoardView.qml
+BusItem      1.0 BusItem.qml
+PassengerItem 1.0 PassengerItem.qml
+PlatformView 1.0 PlatformView.qml
+HUD          1.0 HUD.qml

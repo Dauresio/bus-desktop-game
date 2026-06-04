@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="assets/fonts/FredokaOne-Regular.ttf">C:/Projects/_busJamPuzzle/assets/fonts/FredokaOne-Regular.ttf</file>
+    <file alias="assets/fonts/Nunito-Regular.ttf">C:/Projects/_busJamPuzzle/assets/fonts/Nunito-Regular.ttf</file>
+    <file alias="assets/fonts/Nunito-Bold.ttf">C:/Projects/_busJamPuzzle/assets/fonts/Nunito-Bold.ttf</file>
+    <file alias="assets/icons/app_icon.png">C:/Projects/_busJamPuzzle/assets/icons/app_icon.png</file>
+  </qresource>
+</RCC>
+

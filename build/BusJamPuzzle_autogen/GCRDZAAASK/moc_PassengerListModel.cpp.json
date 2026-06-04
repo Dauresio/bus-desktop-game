@@ -1,0 +1,36 @@
+{
+    "classes": [
+        {
+            "className": "PassengerListModel",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 27,
+                    "name": "PassengerRole",
+                    "values": [
+                        "PassengerIdRole",
+                        "ColorIndexRole",
+                        "CellRowRole",
+                        "CellColRole",
+                        "StateEnumRole",
+                        "IsWaitingRole",
+                        "IsBoardingRole",
+                        "IsBoardedRole"
+                    ]
+                }
+            ],
+            "lineNumber": 22,
+            "object": true,
+            "qualifiedClassName": "PassengerListModel",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "PassengerListModel.h",
+    "outputRevision": 69
+}

@@ -1,0 +1,4 @@
+module BusJamPuzzle.style
+
+singleton Theme 1.0 Theme.qml
+singleton Sizes 1.0 Sizes.qml

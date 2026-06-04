@@ -1,0 +1,16 @@
+-rootPath
+C:/Projects/_busJamPuzzle
+-cmake-output
+-output-file
+C:/Projects/_busJamPuzzle/build/.qt/qml_imports/BusJamPuzzle_conf.cmake
+-importPath
+C:/Projects/_busJamPuzzle/build
+-importPath
+C:/Projects/_busJamPuzzle/build/BusJamPuzzle
+-importPath
+C:/Qt/6.11.0/mingw_64/qml
+-qrcFiles
+C:/Projects/_busJamPuzzle/build/.qt/rcc/qmake_BusJamPuzzle.qrc
+C:/Projects/_busJamPuzzle/build/.qt/rcc/BusJamPuzzle_raw_qml_0.qrc
+C:/Projects/_busJamPuzzle/build/.qt/rcc/BusJamPuzzle_raw_res_0.qrc
+C:/Projects/_busJamPuzzle/build/.qt/rcc/level_data.qrc
