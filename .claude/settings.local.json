@@ -12,7 +12,8 @@
       "PowerShell($env:PATH = \"C:\\\\Qt\\\\Tools\\\\mingw1310_64\\\\bin;C:\\\\Qt\\\\Tools\\\\CMake_64\\\\bin;C:\\\\Qt\\\\Tools\\\\Ninja;C:\\\\Qt\\\\6.11.0\\\\mingw_64\\\\bin;$env:PATH\"; Set-Location \"C:\\\\Projects\\\\_BusJamPuzzle\"; cmake --build build --parallel 2>&1)",
       "PowerShell($env:PATH = \"C:\\\\Qt\\\\Tools\\\\mingw1310_64\\\\bin;C:\\\\Qt\\\\6.11.0\\\\mingw_64\\\\bin;$env:PATH\"; Set-Location \"C:\\\\Projects\\\\_BusJamPuzzle\"; Start-Process \".\\\\build\\\\BusJamPuzzle.exe\")",
       "PowerShell($env:PATH = \"C:\\\\Qt\\\\Tools\\\\mingw1310_64\\\\bin;C:\\\\Qt\\\\6.11.0\\\\mingw_64\\\\bin;$env:PATH\"; windeployqt6 --qmldir \"C:\\\\Projects\\\\_BusJamPuzzle\\\\qml\" \"C:\\\\Projects\\\\_BusJamPuzzle\\\\build\\\\BusJamPuzzle.exe\" 2>&1)",
-      "PowerShell($env:PATH = \"C:\\\\Qt\\\\Tools\\\\mingw1310_64\\\\bin;$env:PATH\"; Start-Process \"C:\\\\Projects\\\\_BusJamPuzzle\\\\build\\\\BusJamPuzzle.exe\" -Wait -PassThru | Select-Object ExitCode)"
+      "PowerShell($env:PATH = \"C:\\\\Qt\\\\Tools\\\\mingw1310_64\\\\bin;$env:PATH\"; Start-Process \"C:\\\\Projects\\\\_BusJamPuzzle\\\\build\\\\BusJamPuzzle.exe\" -Wait -PassThru | Select-Object ExitCode)",
+      "PowerShell(Get-ChildItem -Path \"c:\\\\Projects\\\\bus-desktop-game\" -Force | Select-Object Name, @{Name=\"Type\"; Expression={if \\($_.PSIsContainer\\) { \"DIR\" } else { \"FILE\" }}} | Format-Table -AutoSize)"
     ]
   }
 }

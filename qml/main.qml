@@ -199,9 +199,9 @@ Window {
         if (typeof levelManager !== "undefined" && levelManager !== null) {
             return levelManager.allLevelMetadata()
         }
-        // Placeholder: 20 níveis
+        // Placeholder: 10 níveis
         var list = []
-        for (var i = 1; i <= 20; ++i) {
+        for (var i = 1; i <= 10; ++i) {
             list.push({
                 id: i,
                 name: "Nível " + i,
