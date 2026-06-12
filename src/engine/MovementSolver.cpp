@@ -16,6 +16,7 @@
 
 #include "MovementSolver.h"
 
+#include "../model/Passenger.h"
 #include <QDebug>
 #include <algorithm>   // std::sort, std::max_element
 
@@ -468,7 +469,7 @@ QPoint MovementSolver::directionDelta(Direction dir) noexcept
 bool MovementSolver::isCellPassable(const Board&    board,
                                      QPoint          pos,
                                      const Bus&      bus,
-                                     const Platform* targetPlat) noexcept
+                                     const Platform* targetPlat)
 {
     const CellInfo info = board.cellInfoAt(pos);
 
@@ -483,7 +484,14 @@ bool MovementSolver::isCellPassable(const Board&    board,
             && targetPlat->isFree();
     }
 
-    // Qualquer outro ocupante (Bus, Passenger, outra Platform) é obstáculo.
+    // Passageiros da mesma cor em Waiting são recolhidos em trânsito — não bloqueiam.
+    if (info.type == OccupancyType::Passenger)
+    {
+        const Passenger* p = board.findPassengerById(info.id);
+        return p != nullptr && p->color() == bus.color() && p->isWaiting();
+    }
+
+    // Qualquer outro ocupante (Bus, outra Platform) é obstáculo.
     return false;
 }
 

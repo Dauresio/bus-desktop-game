@@ -13,7 +13,16 @@
       "PowerShell($env:PATH = \"C:\\\\Qt\\\\Tools\\\\mingw1310_64\\\\bin;C:\\\\Qt\\\\6.11.0\\\\mingw_64\\\\bin;$env:PATH\"; Set-Location \"C:\\\\Projects\\\\_BusJamPuzzle\"; Start-Process \".\\\\build\\\\BusJamPuzzle.exe\")",
       "PowerShell($env:PATH = \"C:\\\\Qt\\\\Tools\\\\mingw1310_64\\\\bin;C:\\\\Qt\\\\6.11.0\\\\mingw_64\\\\bin;$env:PATH\"; windeployqt6 --qmldir \"C:\\\\Projects\\\\_BusJamPuzzle\\\\qml\" \"C:\\\\Projects\\\\_BusJamPuzzle\\\\build\\\\BusJamPuzzle.exe\" 2>&1)",
       "PowerShell($env:PATH = \"C:\\\\Qt\\\\Tools\\\\mingw1310_64\\\\bin;$env:PATH\"; Start-Process \"C:\\\\Projects\\\\_BusJamPuzzle\\\\build\\\\BusJamPuzzle.exe\" -Wait -PassThru | Select-Object ExitCode)",
-      "PowerShell(Get-ChildItem -Path \"c:\\\\Projects\\\\bus-desktop-game\" -Force | Select-Object Name, @{Name=\"Type\"; Expression={if \\($_.PSIsContainer\\) { \"DIR\" } else { \"FILE\" }}} | Format-Table -AutoSize)"
+      "PowerShell(Get-ChildItem -Path \"c:\\\\Projects\\\\bus-desktop-game\" -Force | Select-Object Name, @{Name=\"Type\"; Expression={if \\($_.PSIsContainer\\) { \"DIR\" } else { \"FILE\" }}} | Format-Table -AutoSize)",
+      "Bash(find /c/Qt -name \"ninja.exe\" 2>/dev/null | head -5; find /c/Qt -name \"cmake.exe\" 2>/dev/null | head -3)",
+      "Read(//c/Qt/**)",
+      "Skill(run)",
+      "Skill(run:*)",
+      "Bash(/c/Qt/Tools/Ninja/ninja.exe -C /c/Projects/bus-desktop-game/build)",
+      "Bash(taskkill //F //IM BusJamPuzzle.exe)",
+      "Bash(start BusJamPuzzle.exe)",
+      "Bash(./ninja.exe --version)",
+      "Bash(/c/Qt/Tools/Ninja/ninja.exe BusJamPuzzle)"
     ]
   }
 }

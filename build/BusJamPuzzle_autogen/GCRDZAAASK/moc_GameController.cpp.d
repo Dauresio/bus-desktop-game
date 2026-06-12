@@ -1,13 +1,13 @@
-C:/Projects/_busJamPuzzle/build/BusJamPuzzle_autogen/GCRDZAAASK/moc_GameController.cpp: C:/Projects/_busJamPuzzle/src/engine/GameController.h \
-  C:/Projects/_busJamPuzzle/build/BusJamPuzzle_autogen/moc_predefs.h \
-  C:/Projects/_busJamPuzzle/src/engine/BoardEngine.h \
-  C:/Projects/_busJamPuzzle/src/engine/BusListModel.h \
-  C:/Projects/_busJamPuzzle/src/engine/PassengerListModel.h \
-  C:/Projects/_busJamPuzzle/src/engine/PlatformListModel.h \
-  C:/Projects/_busJamPuzzle/src/model/Board.h \
-  C:/Projects/_busJamPuzzle/src/model/Bus.h \
-  C:/Projects/_busJamPuzzle/src/model/Passenger.h \
-  C:/Projects/_busJamPuzzle/src/model/Platform.h \
+C:/Projects/bus-desktop-game/build/BusJamPuzzle_autogen/GCRDZAAASK/moc_GameController.cpp: C:/Projects/bus-desktop-game/src/engine/GameController.h \
+  C:/Projects/bus-desktop-game/build/BusJamPuzzle_autogen/moc_predefs.h \
+  C:/Projects/bus-desktop-game/src/engine/BoardEngine.h \
+  C:/Projects/bus-desktop-game/src/engine/BusListModel.h \
+  C:/Projects/bus-desktop-game/src/engine/PassengerListModel.h \
+  C:/Projects/bus-desktop-game/src/engine/PlatformListModel.h \
+  C:/Projects/bus-desktop-game/src/model/Board.h \
+  C:/Projects/bus-desktop-game/src/model/Bus.h \
+  C:/Projects/bus-desktop-game/src/model/Passenger.h \
+  C:/Projects/bus-desktop-game/src/model/Platform.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/QAbstractListModel \
   C:/Qt/6.11.0/mingw_64/include/QtCore/QElapsedTimer \
   C:/Qt/6.11.0/mingw_64/include/QtCore/QHash \

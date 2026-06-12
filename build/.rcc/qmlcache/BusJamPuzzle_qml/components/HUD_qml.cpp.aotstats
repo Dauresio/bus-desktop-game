@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 13,
-                            "durationMicroseconds": 1000,
+                            "durationMicroseconds": 2000,
                             "functionName": "color",
                             "line": 43,
                             "message": ""
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 0,
                             "column": 13,
-                            "durationMicroseconds": 2000,
+                            "durationMicroseconds": 4000,
                             "functionName": "height",
                             "line": 44,
                             "message": ""
@@ -94,12 +94,12 @@
                             "message": ""
                         },
                         {
-                            "codegenResult": 2,
+                            "codegenResult": 0,
                             "column": 18,
                             "durationMicroseconds": 0,
                             "functionName": "spacing",
                             "line": 71,
-                            "message": "Cannot load property spaceMD from Sizes."
+                            "message": ""
                         },
                         {
                             "codegenResult": 0,
@@ -110,36 +110,36 @@
                             "message": ""
                         },
                         {
-                            "codegenResult": 2,
+                            "codegenResult": 0,
                             "column": 26,
                             "durationMicroseconds": 0,
                             "functionName": "leftMargin",
                             "line": 66,
-                            "message": "Cannot load property spaceMD from Sizes."
+                            "message": ""
                         },
                         {
-                            "codegenResult": 2,
+                            "codegenResult": 0,
                             "column": 26,
                             "durationMicroseconds": 0,
                             "functionName": "rightMargin",
                             "line": 67,
-                            "message": "Cannot load property spaceMD from Sizes."
+                            "message": ""
                         },
                         {
-                            "codegenResult": 2,
+                            "codegenResult": 0,
                             "column": 26,
                             "durationMicroseconds": 0,
                             "functionName": "topMargin",
                             "line": 68,
-                            "message": "Cannot load property spaceXS from Sizes."
+                            "message": ""
                         },
                         {
-                            "codegenResult": 2,
+                            "codegenResult": 0,
                             "column": 27,
                             "durationMicroseconds": 0,
                             "functionName": "bottomMargin",
                             "line": 69,
-                            "message": "Cannot load property spaceXS from Sizes."
+                            "message": ""
                         },
                         {
                             "codegenResult": 0,
@@ -347,7 +347,7 @@
                             "durationMicroseconds": 0,
                             "functionName": "radius",
                             "line": 153,
-                            "message": "Cannot load property radius from (component in C:/Projects/_busJamPuzzle/qml/components/HUD.qml)::parent with type QQuickItem."
+                            "message": "Cannot load property radius from (component in C:/Projects/bus-desktop-game/qml/components/HUD.qml)::parent with type QQuickItem."
                         },
                         {
                             "codegenResult": 0,
@@ -403,7 +403,7 @@
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
                             "line": 169,
-                            "message": "Type (component in C:/Projects/_busJamPuzzle/qml/components/HUD.qml)::parent with type QQuickItem does not have a property clicked for calling"
+                            "message": "Type (component in C:/Projects/bus-desktop-game/qml/components/HUD.qml)::parent with type QQuickItem does not have a property clicked for calling"
                         },
                         {
                             "codegenResult": 0,
@@ -435,7 +435,7 @@
                             "durationMicroseconds": 0,
                             "functionName": "text",
                             "line": 191,
-                            "message": "Cannot load property label from (component in C:/Projects/_busJamPuzzle/qml/components/HUD.qml)::parent with type QQuickItem."
+                            "message": "Cannot load property label from (component in C:/Projects/bus-desktop-game/qml/components/HUD.qml)::parent with type QQuickItem."
                         },
                         {
                             "codegenResult": 0,
@@ -467,7 +467,7 @@
                             "durationMicroseconds": 0,
                             "functionName": "text",
                             "line": 201,
-                            "message": "Cannot load property isTime from (component in C:/Projects/_busJamPuzzle/qml/components/HUD.qml)::parent with type QQuickItem."
+                            "message": "Cannot load property isTime from (component in C:/Projects/bus-desktop-game/qml/components/HUD.qml)::parent with type QQuickItem."
                         },
                         {
                             "codegenResult": 2,
@@ -475,7 +475,7 @@
                             "durationMicroseconds": 0,
                             "functionName": "color",
                             "line": 208,
-                            "message": "Cannot load property valueColor from (component in C:/Projects/_busJamPuzzle/qml/components/HUD.qml)::parent with type QQuickItem."
+                            "message": "Cannot load property valueColor from (component in C:/Projects/bus-desktop-game/qml/components/HUD.qml)::parent with type QQuickItem."
                         },
                         {
                             "codegenResult": 0,
@@ -510,7 +510,7 @@
                             "message": ""
                         }
                     ],
-                    "filePath": "C:/Projects/_busJamPuzzle/qml/components/HUD.qml"
+                    "filePath": "C:/Projects/bus-desktop-game/qml/components/HUD.qml"
                 }
             ],
             "moduleId": "BusJamPuzzle(BusJamPuzzle)"

@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 0,
                             "column": 38,
-                            "durationMicroseconds": 3000,
+                            "durationMicroseconds": 8000,
                             "functionName": "cellSize",
                             "line": 42,
                             "message": ""
@@ -42,7 +42,7 @@
                             "column": 13,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 44,
+                            "line": 47,
                             "message": ""
                         },
                         {
@@ -50,7 +50,7 @@
                             "column": 13,
                             "durationMicroseconds": 0,
                             "functionName": "height",
-                            "line": 45,
+                            "line": 48,
                             "message": ""
                         },
                         {
@@ -58,7 +58,7 @@
                             "column": 18,
                             "durationMicroseconds": 1000,
                             "functionName": "color",
-                            "line": 56,
+                            "line": 59,
                             "message": ""
                         },
                         {
@@ -66,7 +66,7 @@
                             "column": 18,
                             "durationMicroseconds": 0,
                             "functionName": "radius",
-                            "line": 57,
+                            "line": 60,
                             "message": ""
                         },
                         {
@@ -74,14 +74,6 @@
                             "column": 23,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 55,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 23,
-                            "durationMicroseconds": 0,
-                            "functionName": "color",
                             "line": 58,
                             "message": ""
                         },
@@ -89,8 +81,16 @@
                             "codegenResult": 0,
                             "column": 23,
                             "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 61,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 23,
+                            "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 59,
+                            "line": 62,
                             "message": ""
                         },
                         {
@@ -98,7 +98,7 @@
                             "column": 17,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 68,
+                            "line": 71,
                             "message": ""
                         },
                         {
@@ -106,7 +106,7 @@
                             "column": 17,
                             "durationMicroseconds": 0,
                             "functionName": "height",
-                            "line": 69,
+                            "line": 72,
                             "message": ""
                         },
                         {
@@ -114,7 +114,7 @@
                             "column": 17,
                             "durationMicroseconds": 0,
                             "functionName": "radius",
-                            "line": 70,
+                            "line": 73,
                             "message": ""
                         },
                         {
@@ -122,7 +122,7 @@
                             "column": 17,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 71,
+                            "line": 74,
                             "message": ""
                         },
                         {
@@ -130,7 +130,7 @@
                             "column": 12,
                             "durationMicroseconds": 0,
                             "functionName": "x",
-                            "line": 73,
+                            "line": 76,
                             "message": ""
                         },
                         {
@@ -138,7 +138,7 @@
                             "column": 12,
                             "durationMicroseconds": 0,
                             "functionName": "y",
-                            "line": 74,
+                            "line": 77,
                             "message": ""
                         },
                         {
@@ -146,7 +146,7 @@
                             "column": 18,
                             "durationMicroseconds": 0,
                             "functionName": "rows",
-                            "line": 82,
+                            "line": 85,
                             "message": "Cannot access value for name boardRows"
                         },
                         {
@@ -154,7 +154,7 @@
                             "column": 18,
                             "durationMicroseconds": 0,
                             "functionName": "columns",
-                            "line": 83,
+                            "line": 86,
                             "message": "Cannot access value for name boardCols"
                         },
                         {
@@ -162,7 +162,7 @@
                             "column": 23,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 81,
+                            "line": 84,
                             "message": ""
                         },
                         {
@@ -170,7 +170,7 @@
                             "column": 20,
                             "durationMicroseconds": 0,
                             "functionName": "model",
-                            "line": 86,
+                            "line": 89,
                             "message": "Cannot access value for name boardRows"
                         },
                         {
@@ -178,7 +178,7 @@
                             "column": 25,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 89,
+                            "line": 92,
                             "message": "Cannot access value for name cellSize"
                         },
                         {
@@ -186,7 +186,7 @@
                             "column": 25,
                             "durationMicroseconds": 0,
                             "functionName": "height",
-                            "line": 90,
+                            "line": 93,
                             "message": "Cannot access value for name cellSize"
                         },
                         {
@@ -194,7 +194,7 @@
                             "column": 44,
                             "durationMicroseconds": 0,
                             "functionName": "row",
-                            "line": 93,
+                            "line": 96,
                             "message": "Cannot access value for name index"
                         },
                         {
@@ -202,7 +202,7 @@
                             "column": 44,
                             "durationMicroseconds": 0,
                             "functionName": "col",
-                            "line": 94,
+                            "line": 97,
                             "message": "Cannot access value for name index"
                         },
                         {
@@ -210,7 +210,7 @@
                             "column": 48,
                             "durationMicroseconds": 0,
                             "functionName": "isEven",
-                            "line": 95,
+                            "line": 98,
                             "message": ""
                         },
                         {
@@ -218,7 +218,7 @@
                             "column": 24,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 97,
+                            "line": 100,
                             "message": ""
                         },
                         {
@@ -226,7 +226,7 @@
                             "column": 16,
                             "durationMicroseconds": 0,
                             "functionName": "model",
-                            "line": 110,
+                            "line": 113,
                             "message": "Cannot access value for name platformModel"
                         },
                         {
@@ -234,30 +234,6 @@
                             "column": 26,
                             "durationMicroseconds": 0,
                             "functionName": "platformId",
-                            "line": 113,
-                            "message": "Cannot access value for name model"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 26,
-                            "durationMicroseconds": 0,
-                            "functionName": "colorIndex",
-                            "line": 114,
-                            "message": "Cannot access value for name model"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 26,
-                            "durationMicroseconds": 0,
-                            "functionName": "stateEnum",
-                            "line": 115,
-                            "message": "Cannot access value for name model"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 26,
-                            "durationMicroseconds": 0,
-                            "functionName": "exitDirEnum",
                             "line": 116,
                             "message": "Cannot access value for name model"
                         },
@@ -265,8 +241,32 @@
                             "codegenResult": 2,
                             "column": 26,
                             "durationMicroseconds": 0,
-                            "functionName": "cellSize",
+                            "functionName": "colorIndex",
                             "line": 117,
+                            "message": "Cannot access value for name model"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 26,
+                            "durationMicroseconds": 0,
+                            "functionName": "stateEnum",
+                            "line": 118,
+                            "message": "Cannot access value for name model"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 26,
+                            "durationMicroseconds": 0,
+                            "functionName": "exitDirEnum",
+                            "line": 119,
+                            "message": "Cannot access value for name model"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 26,
+                            "durationMicroseconds": 0,
+                            "functionName": "cellSize",
+                            "line": 120,
                             "message": "Cannot access value for name root"
                         },
                         {
@@ -274,7 +274,7 @@
                             "column": 16,
                             "durationMicroseconds": 0,
                             "functionName": "x",
-                            "line": 119,
+                            "line": 122,
                             "message": "Cannot access value for name model"
                         },
                         {
@@ -282,7 +282,7 @@
                             "column": 16,
                             "durationMicroseconds": 0,
                             "functionName": "y",
-                            "line": 120,
+                            "line": 123,
                             "message": "Cannot access value for name model"
                         },
                         {
@@ -290,7 +290,7 @@
                             "column": 16,
                             "durationMicroseconds": 0,
                             "functionName": "model",
-                            "line": 128,
+                            "line": 131,
                             "message": "Cannot access value for name passengerModel"
                         },
                         {
@@ -298,30 +298,6 @@
                             "column": 26,
                             "durationMicroseconds": 0,
                             "functionName": "passengerId",
-                            "line": 131,
-                            "message": "Cannot access value for name model"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 26,
-                            "durationMicroseconds": 0,
-                            "functionName": "colorIndex",
-                            "line": 132,
-                            "message": "Cannot access value for name model"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 26,
-                            "durationMicroseconds": 0,
-                            "functionName": "isBoarding",
-                            "line": 133,
-                            "message": "Cannot access value for name model"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 26,
-                            "durationMicroseconds": 0,
-                            "functionName": "isBoarded",
                             "line": 134,
                             "message": "Cannot access value for name model"
                         },
@@ -329,8 +305,32 @@
                             "codegenResult": 2,
                             "column": 26,
                             "durationMicroseconds": 0,
-                            "functionName": "cellSize",
+                            "functionName": "colorIndex",
                             "line": 135,
+                            "message": "Cannot access value for name model"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 26,
+                            "durationMicroseconds": 0,
+                            "functionName": "isBoarding",
+                            "line": 136,
+                            "message": "Cannot access value for name model"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 26,
+                            "durationMicroseconds": 0,
+                            "functionName": "isBoarded",
+                            "line": 137,
+                            "message": "Cannot access value for name model"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 26,
+                            "durationMicroseconds": 0,
+                            "functionName": "cellSize",
+                            "line": 138,
                             "message": "Cannot access value for name root"
                         },
                         {
@@ -338,7 +338,7 @@
                             "column": 16,
                             "durationMicroseconds": 0,
                             "functionName": "x",
-                            "line": 137,
+                            "line": 140,
                             "message": "Cannot access value for name model"
                         },
                         {
@@ -346,7 +346,7 @@
                             "column": 16,
                             "durationMicroseconds": 0,
                             "functionName": "y",
-                            "line": 138,
+                            "line": 141,
                             "message": "Cannot access value for name model"
                         },
                         {
@@ -354,7 +354,7 @@
                             "column": 16,
                             "durationMicroseconds": 0,
                             "functionName": "model",
-                            "line": 146,
+                            "line": 149,
                             "message": "Cannot access value for name busModel"
                         },
                         {
@@ -362,30 +362,6 @@
                             "column": 27,
                             "durationMicroseconds": 0,
                             "functionName": "busId",
-                            "line": 149,
-                            "message": "Cannot access value for name model"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 27,
-                            "durationMicroseconds": 0,
-                            "functionName": "colorIndex",
-                            "line": 150,
-                            "message": "Cannot access value for name model"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 27,
-                            "durationMicroseconds": 0,
-                            "functionName": "capacity",
-                            "line": 151,
-                            "message": "Cannot access value for name model"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 27,
-                            "durationMicroseconds": 0,
-                            "functionName": "boardedCount",
                             "line": 152,
                             "message": "Cannot access value for name model"
                         },
@@ -393,7 +369,7 @@
                             "codegenResult": 2,
                             "column": 27,
                             "durationMicroseconds": 0,
-                            "functionName": "isActive",
+                            "functionName": "colorIndex",
                             "line": 153,
                             "message": "Cannot access value for name model"
                         },
@@ -401,7 +377,7 @@
                             "codegenResult": 2,
                             "column": 27,
                             "durationMicroseconds": 0,
-                            "functionName": "isAtPlatform",
+                            "functionName": "capacity",
                             "line": 154,
                             "message": "Cannot access value for name model"
                         },
@@ -409,15 +385,15 @@
                             "codegenResult": 2,
                             "column": 27,
                             "durationMicroseconds": 0,
-                            "functionName": "hasLeft",
+                            "functionName": "boardedCount",
                             "line": 155,
                             "message": "Cannot access value for name model"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 28,
+                            "column": 27,
                             "durationMicroseconds": 0,
-                            "functionName": "directionEnum",
+                            "functionName": "isActive",
                             "line": 156,
                             "message": "Cannot access value for name model"
                         },
@@ -425,8 +401,32 @@
                             "codegenResult": 2,
                             "column": 27,
                             "durationMicroseconds": 0,
-                            "functionName": "cellSize",
+                            "functionName": "isAtPlatform",
                             "line": 157,
+                            "message": "Cannot access value for name model"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 27,
+                            "durationMicroseconds": 0,
+                            "functionName": "hasLeft",
+                            "line": 158,
+                            "message": "Cannot access value for name model"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "directionEnum",
+                            "line": 159,
+                            "message": "Cannot access value for name model"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 27,
+                            "durationMicroseconds": 0,
+                            "functionName": "cellSize",
+                            "line": 160,
                             "message": "Cannot access value for name root"
                         },
                         {
@@ -434,7 +434,7 @@
                             "column": 27,
                             "durationMicroseconds": 0,
                             "functionName": "boardRow",
-                            "line": 158,
+                            "line": 161,
                             "message": "Cannot access value for name model"
                         },
                         {
@@ -442,7 +442,7 @@
                             "column": 27,
                             "durationMicroseconds": 0,
                             "functionName": "boardCol",
-                            "line": 159,
+                            "line": 162,
                             "message": "Cannot access value for name model"
                         },
                         {
@@ -450,7 +450,7 @@
                             "column": 26,
                             "durationMicroseconds": 0,
                             "functionName": "onBusTapped",
-                            "line": 161,
+                            "line": 164,
                             "message": "Cannot access value for name root"
                         },
                         {
@@ -458,7 +458,7 @@
                             "column": 26,
                             "durationMicroseconds": 0,
                             "functionName": "onBusTapped",
-                            "line": 161,
+                            "line": 164,
                             "message": ""
                         },
                         {
@@ -466,7 +466,7 @@
                             "column": 16,
                             "durationMicroseconds": 0,
                             "functionName": "model",
-                            "line": 172,
+                            "line": 175,
                             "message": "Cannot access value for name busModel"
                         },
                         {
@@ -474,7 +474,7 @@
                             "column": 22,
                             "durationMicroseconds": 0,
                             "functionName": "visible",
-                            "line": 175,
+                            "line": 178,
                             "message": "Cannot access value for name model"
                         },
                         {
@@ -482,7 +482,7 @@
                             "column": 21,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 176,
+                            "line": 179,
                             "message": "Cannot access value for name cellSize"
                         },
                         {
@@ -490,7 +490,7 @@
                             "column": 21,
                             "durationMicroseconds": 0,
                             "functionName": "height",
-                            "line": 177,
+                            "line": 180,
                             "message": "Cannot access value for name cellSize"
                         },
                         {
@@ -498,7 +498,7 @@
                             "column": 21,
                             "durationMicroseconds": 0,
                             "functionName": "radius",
-                            "line": 178,
+                            "line": 181,
                             "message": ""
                         },
                         {
@@ -506,7 +506,7 @@
                             "column": 16,
                             "durationMicroseconds": 0,
                             "functionName": "x",
-                            "line": 182,
+                            "line": 185,
                             "message": "Cannot access value for name model"
                         },
                         {
@@ -514,7 +514,7 @@
                             "column": 16,
                             "durationMicroseconds": 0,
                             "functionName": "y",
-                            "line": 183,
+                            "line": 186,
                             "message": "Cannot access value for name model"
                         },
                         {
@@ -522,7 +522,7 @@
                             "column": 26,
                             "durationMicroseconds": 0,
                             "functionName": "running",
-                            "line": 187,
+                            "line": 190,
                             "message": "Cannot access value for name visible"
                         },
                         {
@@ -530,7 +530,7 @@
                             "column": 24,
                             "durationMicroseconds": 0,
                             "functionName": "loops",
-                            "line": 188,
+                            "line": 191,
                             "message": ""
                         },
                         {
@@ -538,7 +538,7 @@
                             "column": 16,
                             "durationMicroseconds": 0,
                             "functionName": "model",
-                            "line": 200,
+                            "line": 203,
                             "message": "Cannot access value for name showVictoryEffect"
                         },
                         {
@@ -546,7 +546,7 @@
                             "column": 21,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 204,
+                            "line": 207,
                             "message": "Cannot access value for name index"
                         },
                         {
@@ -554,7 +554,7 @@
                             "column": 21,
                             "durationMicroseconds": 0,
                             "functionName": "height",
-                            "line": 205,
+                            "line": 208,
                             "message": ""
                         },
                         {
@@ -562,7 +562,7 @@
                             "column": 21,
                             "durationMicroseconds": 0,
                             "functionName": "radius",
-                            "line": 206,
+                            "line": 209,
                             "message": ""
                         },
                         {
@@ -570,7 +570,7 @@
                             "column": 20,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 207,
+                            "line": 210,
                             "message": "Cannot access value for name index"
                         },
                         {
@@ -578,7 +578,7 @@
                             "column": 16,
                             "durationMicroseconds": 0,
                             "functionName": "x",
-                            "line": 210,
+                            "line": 213,
                             "message": "Cannot access value for name root"
                         },
                         {
@@ -586,7 +586,7 @@
                             "column": 16,
                             "durationMicroseconds": 0,
                             "functionName": "y",
-                            "line": 211,
+                            "line": 214,
                             "message": "Cannot access value for name root"
                         },
                         {
@@ -594,63 +594,15 @@
                             "column": 29,
                             "durationMicroseconds": 0,
                             "functionName": "target",
-                            "line": 217,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 25,
-                            "durationMicroseconds": 0,
-                            "functionName": "to",
-                            "line": 218,
-                            "message": "Cannot access value for name index"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 31,
-                            "durationMicroseconds": 0,
-                            "functionName": "duration",
-                            "line": 219,
-                            "message": "Cannot access value for name index"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 34,
-                            "durationMicroseconds": 0,
-                            "functionName": "type",
                             "line": 220,
                             "message": ""
                         },
                         {
-                            "codegenResult": 0,
-                            "column": 29,
-                            "durationMicroseconds": 0,
-                            "functionName": "target",
-                            "line": 223,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 31,
-                            "durationMicroseconds": 0,
-                            "functionName": "duration",
-                            "line": 225,
-                            "message": "Cannot access value for name index"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 29,
-                            "durationMicroseconds": 0,
-                            "functionName": "target",
-                            "line": 228,
-                            "message": ""
-                        },
-                        {
                             "codegenResult": 2,
                             "column": 25,
                             "durationMicroseconds": 0,
                             "functionName": "to",
-                            "line": 229,
+                            "line": 221,
                             "message": "Cannot access value for name index"
                         },
                         {
@@ -658,7 +610,7 @@
                             "column": 31,
                             "durationMicroseconds": 0,
                             "functionName": "duration",
-                            "line": 230,
+                            "line": 222,
                             "message": "Cannot access value for name index"
                         },
                         {
@@ -666,11 +618,59 @@
                             "column": 34,
                             "durationMicroseconds": 0,
                             "functionName": "type",
+                            "line": 223,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 29,
+                            "durationMicroseconds": 0,
+                            "functionName": "target",
+                            "line": 226,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 31,
+                            "durationMicroseconds": 0,
+                            "functionName": "duration",
+                            "line": 228,
+                            "message": "Cannot access value for name index"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 29,
+                            "durationMicroseconds": 0,
+                            "functionName": "target",
                             "line": 231,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 25,
+                            "durationMicroseconds": 0,
+                            "functionName": "to",
+                            "line": 232,
+                            "message": "Cannot access value for name index"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 31,
+                            "durationMicroseconds": 0,
+                            "functionName": "duration",
+                            "line": 233,
+                            "message": "Cannot access value for name index"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 34,
+                            "durationMicroseconds": 0,
+                            "functionName": "type",
+                            "line": 234,
                             "message": ""
                         }
                     ],
-                    "filePath": "C:/Projects/_busJamPuzzle/qml/components/BoardView.qml"
+                    "filePath": "C:/Projects/bus-desktop-game/qml/components/BoardView.qml"
                 }
             ],
             "moduleId": "BusJamPuzzle(BusJamPuzzle)"

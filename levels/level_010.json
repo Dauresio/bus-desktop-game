@@ -10,9 +10,9 @@
   "buses": [
     { "id": 0, "color": "Red",    "capacity": 6,  "row": 1, "col": 0, "direction": "Right" },
     { "id": 1, "color": "Blue",   "capacity": 8,  "row": 3, "col": 0, "direction": "Right" },
-    { "id": 2, "color": "Green",  "capacity": 4,  "row": 3, "col": 3, "direction": "Right" },
+    { "id": 2, "color": "Green",  "capacity": 4,  "row": 3, "col": 3, "direction": "Up" },
     { "id": 3, "color": "Yellow", "capacity": 6,  "row": 6, "col": 0, "direction": "Right" },
-    { "id": 4, "color": "Purple", "capacity": 4,  "row": 6, "col": 4, "direction": "Right" },
+    { "id": 4, "color": "Purple", "capacity": 4,  "row": 6, "col": 4, "direction": "Up" },
     { "id": 5, "color": "Red",    "capacity": 4,  "row": 9, "col": 0, "direction": "Right" }
   ],
 
@@ -52,13 +52,11 @@
   ],
 
   "platforms": [
-    { "id": 0, "color": "Red",    "row": 1,  "col": 9, "exitDirection": "Right" },
-    { "id": 1, "color": "Blue",   "row": 3,  "col": 9, "exitDirection": "Right" },
-    { "id": 2, "color": "Green",  "row": 2,  "col": 9, "exitDirection": "Right" },
-    { "id": 3, "color": "Yellow", "row": 6,  "col": 9, "exitDirection": "Right" },
-    { "id": 4, "color": "Purple", "row": 8,  "col": 9, "exitDirection": "Right" },
-    { "id": 5, "color": "Red",    "row": 9,  "col": 9, "exitDirection": "Right" },
-    { "id": 6, "color": "Blue",   "row": 5,  "col": 9, "exitDirection": "Right" },
-    { "id": 7, "color": "Yellow", "row": 7,  "col": 9, "exitDirection": "Right" }
+    { "id": 0, "color": "Red",    "row": 1, "col": 9, "exitDirection": "Right" },
+    { "id": 1, "color": "Blue",   "row": 3, "col": 9, "exitDirection": "Right" },
+    { "id": 2, "color": "Green",  "row": 0, "col": 3, "exitDirection": "Up" },
+    { "id": 3, "color": "Yellow", "row": 6, "col": 9, "exitDirection": "Right" },
+    { "id": 4, "color": "Purple", "row": 2, "col": 4, "exitDirection": "Up" },
+    { "id": 5, "color": "Red",    "row": 9, "col": 9, "exitDirection": "Right" }
   ]
 }

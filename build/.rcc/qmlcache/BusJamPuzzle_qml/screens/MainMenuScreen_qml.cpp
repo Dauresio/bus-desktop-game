@@ -3654,6 +3654,76 @@ if (argv[0]) {
 }
 return;
 }
+ },{ 24, 0, [](QV4::ExecutableCompilationUnit *contextUnit, QMetaType *argTypes) {
+    struct { QV4::ExecutableCompilationUnit *compilationUnit; } c { contextUnit };
+    const auto *aotContext = &c;
+    Q_UNUSED(aotContext);
+    argTypes[0] = QMetaType::fromType<double>();
+}, 
+    [](const QQmlPrivate::AOTCompiledContext *aotContext, void **argv) {
+Q_UNUSED(aotContext)
+Q_UNUSED(argv)
+// expression for spacing at line 93, column 9
+struct Storage : QQmlPrivate::AOTTrackedLocalsStorage {
+Storage(const QQmlPrivate::AOTCompiledContext *ctxt, void **a)   : aotContext(ctxt), argv(a) {}
+void markObjects(QV4::MarkStack *markStack) const final {    Q_UNUSED(markStack);
+    aotContext->mark(v2_2, markStack);
+}
+const QQmlPrivate::AOTCompiledContext *aotContext;
+void **argv;
+QObject *v2_2 = nullptr;
+double v2_4;
+};
+Storage s(aotContext, argv);
+aotContext->setLocals(&s);
+{
+}
+// generate_GetLookup
+#ifndef QT_NO_DEBUG
+aotContext->setInstructionPointer(4);
+#endif
+while (!aotContext->loadSingletonLookup(67, &s.v2_2)) {
+#ifdef QT_NO_DEBUG
+aotContext->setInstructionPointer(4);
+#endif
+aotContext->initLoadSingletonLookup(67, 3);
+if (aotContext->engine->hasError()) {
+aotContext->setReturnValueUndefined();
+if (argv[0]) {
+    *static_cast<double *>(argv[0]) = double();
+}
+return;
+}
+}
+{
+}
+// generate_GetLookup
+#ifndef QT_NO_DEBUG
+aotContext->setInstructionPointer(6);
+#endif
+while (!aotContext->getObjectLookup(68, s.v2_2, &s.v2_4)) {
+#ifdef QT_NO_DEBUG
+aotContext->setInstructionPointer(6);
+#endif
+aotContext->initGetObjectLookup(68, s.v2_2);
+if (aotContext->engine->hasError()) {
+aotContext->setReturnValueUndefined();
+if (argv[0]) {
+    *static_cast<double *>(argv[0]) = double();
+}
+return;
+}
+}
+{
+}
+{
+}
+// generate_Ret
+if (argv[0]) {
+    *static_cast<double *>(argv[0]) = s.v2_4;
+}
+return;
+}
  },{ 25, 0, [](QV4::ExecutableCompilationUnit *contextUnit, QMetaType *argTypes) {
     struct { QV4::ExecutableCompilationUnit *compilationUnit; } c { contextUnit };
     const auto *aotContext = &c;
@@ -3699,6 +3769,76 @@ return;
 // generate_Ret
 if (argv[0]) {
     *static_cast<QObject * *>(argv[0]) = s.v2_0;
+}
+return;
+}
+ },{ 26, 0, [](QV4::ExecutableCompilationUnit *contextUnit, QMetaType *argTypes) {
+    struct { QV4::ExecutableCompilationUnit *compilationUnit; } c { contextUnit };
+    const auto *aotContext = &c;
+    Q_UNUSED(aotContext);
+    argTypes[0] = QMetaType::fromType<double>();
+}, 
+    [](const QQmlPrivate::AOTCompiledContext *aotContext, void **argv) {
+Q_UNUSED(aotContext)
+Q_UNUSED(argv)
+// expression for spacing at line 98, column 13
+struct Storage : QQmlPrivate::AOTTrackedLocalsStorage {
+Storage(const QQmlPrivate::AOTCompiledContext *ctxt, void **a)   : aotContext(ctxt), argv(a) {}
+void markObjects(QV4::MarkStack *markStack) const final {    Q_UNUSED(markStack);
+    aotContext->mark(v2_2, markStack);
+}
+const QQmlPrivate::AOTCompiledContext *aotContext;
+void **argv;
+QObject *v2_2 = nullptr;
+double v2_4;
+};
+Storage s(aotContext, argv);
+aotContext->setLocals(&s);
+{
+}
+// generate_GetLookup
+#ifndef QT_NO_DEBUG
+aotContext->setInstructionPointer(4);
+#endif
+while (!aotContext->loadSingletonLookup(71, &s.v2_2)) {
+#ifdef QT_NO_DEBUG
+aotContext->setInstructionPointer(4);
+#endif
+aotContext->initLoadSingletonLookup(71, 3);
+if (aotContext->engine->hasError()) {
+aotContext->setReturnValueUndefined();
+if (argv[0]) {
+    *static_cast<double *>(argv[0]) = double();
+}
+return;
+}
+}
+{
+}
+// generate_GetLookup
+#ifndef QT_NO_DEBUG
+aotContext->setInstructionPointer(6);
+#endif
+while (!aotContext->getObjectLookup(72, s.v2_2, &s.v2_4)) {
+#ifdef QT_NO_DEBUG
+aotContext->setInstructionPointer(6);
+#endif
+aotContext->initGetObjectLookup(72, s.v2_2);
+if (aotContext->engine->hasError()) {
+aotContext->setReturnValueUndefined();
+if (argv[0]) {
+    *static_cast<double *>(argv[0]) = double();
+}
+return;
+}
+}
+{
+}
+{
+}
+// generate_Ret
+if (argv[0]) {
+    *static_cast<double *>(argv[0]) = s.v2_4;
 }
 return;
 }
@@ -4750,6 +4890,76 @@ if (argv[0]) {
     const QMetaType returnType = s.v2_4.metaType();
     returnType.destruct(argv[0]);
     returnType.construct(argv[0], s.v2_4.data());
+}
+return;
+}
+ },{ 41, 0, [](QV4::ExecutableCompilationUnit *contextUnit, QMetaType *argTypes) {
+    struct { QV4::ExecutableCompilationUnit *compilationUnit; } c { contextUnit };
+    const auto *aotContext = &c;
+    Q_UNUSED(aotContext);
+    argTypes[0] = QMetaType::fromType<double>();
+}, 
+    [](const QQmlPrivate::AOTCompiledContext *aotContext, void **argv) {
+Q_UNUSED(aotContext)
+Q_UNUSED(argv)
+// expression for spacing at line 140, column 13
+struct Storage : QQmlPrivate::AOTTrackedLocalsStorage {
+Storage(const QQmlPrivate::AOTCompiledContext *ctxt, void **a)   : aotContext(ctxt), argv(a) {}
+void markObjects(QV4::MarkStack *markStack) const final {    Q_UNUSED(markStack);
+    aotContext->mark(v2_2, markStack);
+}
+const QQmlPrivate::AOTCompiledContext *aotContext;
+void **argv;
+QObject *v2_2 = nullptr;
+double v2_4;
+};
+Storage s(aotContext, argv);
+aotContext->setLocals(&s);
+{
+}
+// generate_GetLookup
+#ifndef QT_NO_DEBUG
+aotContext->setInstructionPointer(4);
+#endif
+while (!aotContext->loadSingletonLookup(111, &s.v2_2)) {
+#ifdef QT_NO_DEBUG
+aotContext->setInstructionPointer(4);
+#endif
+aotContext->initLoadSingletonLookup(111, 3);
+if (aotContext->engine->hasError()) {
+aotContext->setReturnValueUndefined();
+if (argv[0]) {
+    *static_cast<double *>(argv[0]) = double();
+}
+return;
+}
+}
+{
+}
+// generate_GetLookup
+#ifndef QT_NO_DEBUG
+aotContext->setInstructionPointer(6);
+#endif
+while (!aotContext->getObjectLookup(112, s.v2_2, &s.v2_4)) {
+#ifdef QT_NO_DEBUG
+aotContext->setInstructionPointer(6);
+#endif
+aotContext->initGetObjectLookup(112, s.v2_2);
+if (aotContext->engine->hasError()) {
+aotContext->setReturnValueUndefined();
+if (argv[0]) {
+    *static_cast<double *>(argv[0]) = double();
+}
+return;
+}
+}
+{
+}
+{
+}
+// generate_Ret
+if (argv[0]) {
+    *static_cast<double *>(argv[0]) = s.v2_4;
 }
 return;
 }

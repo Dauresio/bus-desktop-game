@@ -171,7 +171,7 @@
                             "durationMicroseconds": 0,
                             "functionName": "radius",
                             "line": 44,
-                            "message": "Cannot load property radius from (component in C:/Projects/_busJamPuzzle/qml/screens/LevelSelectScreen.qml)::parent with type QQuickItem."
+                            "message": "Cannot load property radius from (component in C:/Projects/bus-desktop-game/qml/screens/LevelSelectScreen.qml)::parent with type QQuickItem."
                         },
                         {
                             "codegenResult": 0,
@@ -451,7 +451,7 @@
                             "durationMicroseconds": 0,
                             "functionName": "radius",
                             "line": 106,
-                            "message": "Cannot load property radius from (component in C:/Projects/_busJamPuzzle/qml/screens/LevelSelectScreen.qml)::parent with type QQuickItem."
+                            "message": "Cannot load property radius from (component in C:/Projects/bus-desktop-game/qml/screens/LevelSelectScreen.qml)::parent with type QQuickItem."
                         },
                         {
                             "codegenResult": 0,
@@ -614,7 +614,7 @@
                             "message": ""
                         }
                     ],
-                    "filePath": "C:/Projects/_busJamPuzzle/qml/screens/LevelSelectScreen.qml"
+                    "filePath": "C:/Projects/bus-desktop-game/qml/screens/LevelSelectScreen.qml"
                 }
             ],
             "moduleId": "BusJamPuzzle(BusJamPuzzle)"

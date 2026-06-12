@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 13,
-                            "durationMicroseconds": 2000,
+                            "durationMicroseconds": 8000,
                             "functionName": "width",
                             "line": 26,
                             "message": ""
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 0,
                             "column": 12,
-                            "durationMicroseconds": 2000,
+                            "durationMicroseconds": 1000,
                             "functionName": "color",
                             "line": 43,
                             "message": ""
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 2,
                             "column": 5,
-                            "durationMicroseconds": 5000,
+                            "durationMicroseconds": 4000,
                             "functionName": "buildLevelMetaList",
                             "line": 195,
                             "message": "Cannot access value for name levelManager"
@@ -478,7 +478,7 @@
                             "message": ""
                         }
                     ],
-                    "filePath": "C:/Projects/_busJamPuzzle/qml/main.qml"
+                    "filePath": "C:/Projects/bus-desktop-game/qml/main.qml"
                 }
             ],
             "moduleId": "BusJamPuzzle(BusJamPuzzle)"

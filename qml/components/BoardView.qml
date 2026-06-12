@@ -39,7 +39,10 @@ Item {
 
     // ─── Dimensões ─────────────────────────────────────────────────────────
 
-    readonly property real cellSize: Style.Sizes.cellSize
+    readonly property real cellSize: Math.min(
+        Math.floor(Style.Sizes.boardAreaWidth  / boardCols),
+        Math.floor(Style.Sizes.boardAreaHeight / boardRows)
+    )
 
     width:  cellSize * boardCols
     height: cellSize * boardRows

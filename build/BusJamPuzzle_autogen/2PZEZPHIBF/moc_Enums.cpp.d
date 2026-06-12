@@ -1,5 +1,5 @@
-C:/Projects/_busJamPuzzle/build/BusJamPuzzle_autogen/2PZEZPHIBF/moc_Enums.cpp: C:/Projects/_busJamPuzzle/src/common/Enums.h \
-  C:/Projects/_busJamPuzzle/build/BusJamPuzzle_autogen/moc_predefs.h \
+C:/Projects/bus-desktop-game/build/BusJamPuzzle_autogen/2PZEZPHIBF/moc_Enums.cpp: C:/Projects/bus-desktop-game/src/common/Enums.h \
+  C:/Projects/bus-desktop-game/build/BusJamPuzzle_autogen/moc_predefs.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/QObject \
   C:/Qt/6.11.0/mingw_64/include/QtCore/QtGlobal \
   C:/Qt/6.11.0/mingw_64/include/QtCore/q17memory.h \

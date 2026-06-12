@@ -176,7 +176,7 @@
                         {
                             "codegenResult": 0,
                             "column": 41,
-                            "durationMicroseconds": 3000,
+                            "durationMicroseconds": 0,
                             "functionName": "fontSizeMD",
                             "line": 77,
                             "message": ""
@@ -286,7 +286,7 @@
                             "message": "Functions without type annotations won't be compiled"
                         }
                     ],
-                    "filePath": "C:/Projects/_busJamPuzzle/qml/style/Sizes.qml"
+                    "filePath": "C:/Projects/bus-desktop-game/qml/style/Sizes.qml"
                 }
             ],
             "moduleId": "BusJamPuzzle(BusJamPuzzle)"

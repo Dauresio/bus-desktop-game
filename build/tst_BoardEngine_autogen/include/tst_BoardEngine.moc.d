@@ -1,5 +1,5 @@
-C:/Projects/_busJamPuzzle/build/tst_BoardEngine_autogen/include/tst_BoardEngine.moc: C:/Projects/_busJamPuzzle/tests/tst_BoardEngine.cpp \
-  C:/Projects/_busJamPuzzle/build/tst_BoardEngine_autogen/moc_predefs.h \
+C:/Projects/bus-desktop-game/build/tst_BoardEngine_autogen/include/tst_BoardEngine.moc: C:/Projects/bus-desktop-game/tests/tst_BoardEngine.cpp \
+  C:/Projects/bus-desktop-game/build/tst_BoardEngine_autogen/moc_predefs.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/QAbstractItemModel \
   C:/Qt/6.11.0/mingw_64/include/QtCore/QDeadlineTimer \
   C:/Qt/6.11.0/mingw_64/include/QtCore/QEvent \

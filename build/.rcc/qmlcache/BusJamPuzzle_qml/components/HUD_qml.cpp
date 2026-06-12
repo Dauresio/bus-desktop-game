@@ -3336,6 +3336,76 @@ if (argv[0]) {
 }
 return;
 }
+ },{ 11, 0, [](QV4::ExecutableCompilationUnit *contextUnit, QMetaType *argTypes) {
+    struct { QV4::ExecutableCompilationUnit *compilationUnit; } c { contextUnit };
+    const auto *aotContext = &c;
+    Q_UNUSED(aotContext);
+    argTypes[0] = QMetaType::fromType<double>();
+}, 
+    [](const QQmlPrivate::AOTCompiledContext *aotContext, void **argv) {
+Q_UNUSED(aotContext)
+Q_UNUSED(argv)
+// expression for spacing at line 71, column 9
+struct Storage : QQmlPrivate::AOTTrackedLocalsStorage {
+Storage(const QQmlPrivate::AOTCompiledContext *ctxt, void **a)   : aotContext(ctxt), argv(a) {}
+void markObjects(QV4::MarkStack *markStack) const final {    Q_UNUSED(markStack);
+    aotContext->mark(v2_2, markStack);
+}
+const QQmlPrivate::AOTCompiledContext *aotContext;
+void **argv;
+QObject *v2_2 = nullptr;
+double v2_4;
+};
+Storage s(aotContext, argv);
+aotContext->setLocals(&s);
+{
+}
+// generate_GetLookup
+#ifndef QT_NO_DEBUG
+aotContext->setInstructionPointer(4);
+#endif
+while (!aotContext->loadSingletonLookup(28, &s.v2_2)) {
+#ifdef QT_NO_DEBUG
+aotContext->setInstructionPointer(4);
+#endif
+aotContext->initLoadSingletonLookup(28, 4);
+if (aotContext->engine->hasError()) {
+aotContext->setReturnValueUndefined();
+if (argv[0]) {
+    *static_cast<double *>(argv[0]) = double();
+}
+return;
+}
+}
+{
+}
+// generate_GetLookup
+#ifndef QT_NO_DEBUG
+aotContext->setInstructionPointer(6);
+#endif
+while (!aotContext->getObjectLookup(29, s.v2_2, &s.v2_4)) {
+#ifdef QT_NO_DEBUG
+aotContext->setInstructionPointer(6);
+#endif
+aotContext->initGetObjectLookup(29, s.v2_2);
+if (aotContext->engine->hasError()) {
+aotContext->setReturnValueUndefined();
+if (argv[0]) {
+    *static_cast<double *>(argv[0]) = double();
+}
+return;
+}
+}
+{
+}
+{
+}
+// generate_Ret
+if (argv[0]) {
+    *static_cast<double *>(argv[0]) = s.v2_4;
+}
+return;
+}
  },{ 12, 0, [](QV4::ExecutableCompilationUnit *contextUnit, QMetaType *argTypes) {
     struct { QV4::ExecutableCompilationUnit *compilationUnit; } c { contextUnit };
     const auto *aotContext = &c;
@@ -3381,6 +3451,286 @@ return;
 // generate_Ret
 if (argv[0]) {
     *static_cast<QObject * *>(argv[0]) = s.v2_0;
+}
+return;
+}
+ },{ 13, 0, [](QV4::ExecutableCompilationUnit *contextUnit, QMetaType *argTypes) {
+    struct { QV4::ExecutableCompilationUnit *compilationUnit; } c { contextUnit };
+    const auto *aotContext = &c;
+    Q_UNUSED(aotContext);
+    argTypes[0] = QMetaType::fromType<double>();
+}, 
+    [](const QQmlPrivate::AOTCompiledContext *aotContext, void **argv) {
+Q_UNUSED(aotContext)
+Q_UNUSED(argv)
+// expression for leftMargin at line 66, column 13
+struct Storage : QQmlPrivate::AOTTrackedLocalsStorage {
+Storage(const QQmlPrivate::AOTCompiledContext *ctxt, void **a)   : aotContext(ctxt), argv(a) {}
+void markObjects(QV4::MarkStack *markStack) const final {    Q_UNUSED(markStack);
+    aotContext->mark(v2_2, markStack);
+}
+const QQmlPrivate::AOTCompiledContext *aotContext;
+void **argv;
+QObject *v2_2 = nullptr;
+double v2_4;
+};
+Storage s(aotContext, argv);
+aotContext->setLocals(&s);
+{
+}
+// generate_GetLookup
+#ifndef QT_NO_DEBUG
+aotContext->setInstructionPointer(4);
+#endif
+while (!aotContext->loadSingletonLookup(32, &s.v2_2)) {
+#ifdef QT_NO_DEBUG
+aotContext->setInstructionPointer(4);
+#endif
+aotContext->initLoadSingletonLookup(32, 4);
+if (aotContext->engine->hasError()) {
+aotContext->setReturnValueUndefined();
+if (argv[0]) {
+    *static_cast<double *>(argv[0]) = double();
+}
+return;
+}
+}
+{
+}
+// generate_GetLookup
+#ifndef QT_NO_DEBUG
+aotContext->setInstructionPointer(6);
+#endif
+while (!aotContext->getObjectLookup(33, s.v2_2, &s.v2_4)) {
+#ifdef QT_NO_DEBUG
+aotContext->setInstructionPointer(6);
+#endif
+aotContext->initGetObjectLookup(33, s.v2_2);
+if (aotContext->engine->hasError()) {
+aotContext->setReturnValueUndefined();
+if (argv[0]) {
+    *static_cast<double *>(argv[0]) = double();
+}
+return;
+}
+}
+{
+}
+{
+}
+// generate_Ret
+if (argv[0]) {
+    *static_cast<double *>(argv[0]) = s.v2_4;
+}
+return;
+}
+ },{ 14, 0, [](QV4::ExecutableCompilationUnit *contextUnit, QMetaType *argTypes) {
+    struct { QV4::ExecutableCompilationUnit *compilationUnit; } c { contextUnit };
+    const auto *aotContext = &c;
+    Q_UNUSED(aotContext);
+    argTypes[0] = QMetaType::fromType<double>();
+}, 
+    [](const QQmlPrivate::AOTCompiledContext *aotContext, void **argv) {
+Q_UNUSED(aotContext)
+Q_UNUSED(argv)
+// expression for rightMargin at line 67, column 13
+struct Storage : QQmlPrivate::AOTTrackedLocalsStorage {
+Storage(const QQmlPrivate::AOTCompiledContext *ctxt, void **a)   : aotContext(ctxt), argv(a) {}
+void markObjects(QV4::MarkStack *markStack) const final {    Q_UNUSED(markStack);
+    aotContext->mark(v2_2, markStack);
+}
+const QQmlPrivate::AOTCompiledContext *aotContext;
+void **argv;
+QObject *v2_2 = nullptr;
+double v2_4;
+};
+Storage s(aotContext, argv);
+aotContext->setLocals(&s);
+{
+}
+// generate_GetLookup
+#ifndef QT_NO_DEBUG
+aotContext->setInstructionPointer(4);
+#endif
+while (!aotContext->loadSingletonLookup(35, &s.v2_2)) {
+#ifdef QT_NO_DEBUG
+aotContext->setInstructionPointer(4);
+#endif
+aotContext->initLoadSingletonLookup(35, 4);
+if (aotContext->engine->hasError()) {
+aotContext->setReturnValueUndefined();
+if (argv[0]) {
+    *static_cast<double *>(argv[0]) = double();
+}
+return;
+}
+}
+{
+}
+// generate_GetLookup
+#ifndef QT_NO_DEBUG
+aotContext->setInstructionPointer(6);
+#endif
+while (!aotContext->getObjectLookup(36, s.v2_2, &s.v2_4)) {
+#ifdef QT_NO_DEBUG
+aotContext->setInstructionPointer(6);
+#endif
+aotContext->initGetObjectLookup(36, s.v2_2);
+if (aotContext->engine->hasError()) {
+aotContext->setReturnValueUndefined();
+if (argv[0]) {
+    *static_cast<double *>(argv[0]) = double();
+}
+return;
+}
+}
+{
+}
+{
+}
+// generate_Ret
+if (argv[0]) {
+    *static_cast<double *>(argv[0]) = s.v2_4;
+}
+return;
+}
+ },{ 15, 0, [](QV4::ExecutableCompilationUnit *contextUnit, QMetaType *argTypes) {
+    struct { QV4::ExecutableCompilationUnit *compilationUnit; } c { contextUnit };
+    const auto *aotContext = &c;
+    Q_UNUSED(aotContext);
+    argTypes[0] = QMetaType::fromType<double>();
+}, 
+    [](const QQmlPrivate::AOTCompiledContext *aotContext, void **argv) {
+Q_UNUSED(aotContext)
+Q_UNUSED(argv)
+// expression for topMargin at line 68, column 13
+struct Storage : QQmlPrivate::AOTTrackedLocalsStorage {
+Storage(const QQmlPrivate::AOTCompiledContext *ctxt, void **a)   : aotContext(ctxt), argv(a) {}
+void markObjects(QV4::MarkStack *markStack) const final {    Q_UNUSED(markStack);
+    aotContext->mark(v2_2, markStack);
+}
+const QQmlPrivate::AOTCompiledContext *aotContext;
+void **argv;
+QObject *v2_2 = nullptr;
+double v2_4;
+};
+Storage s(aotContext, argv);
+aotContext->setLocals(&s);
+{
+}
+// generate_GetLookup
+#ifndef QT_NO_DEBUG
+aotContext->setInstructionPointer(4);
+#endif
+while (!aotContext->loadSingletonLookup(38, &s.v2_2)) {
+#ifdef QT_NO_DEBUG
+aotContext->setInstructionPointer(4);
+#endif
+aotContext->initLoadSingletonLookup(38, 4);
+if (aotContext->engine->hasError()) {
+aotContext->setReturnValueUndefined();
+if (argv[0]) {
+    *static_cast<double *>(argv[0]) = double();
+}
+return;
+}
+}
+{
+}
+// generate_GetLookup
+#ifndef QT_NO_DEBUG
+aotContext->setInstructionPointer(6);
+#endif
+while (!aotContext->getObjectLookup(39, s.v2_2, &s.v2_4)) {
+#ifdef QT_NO_DEBUG
+aotContext->setInstructionPointer(6);
+#endif
+aotContext->initGetObjectLookup(39, s.v2_2);
+if (aotContext->engine->hasError()) {
+aotContext->setReturnValueUndefined();
+if (argv[0]) {
+    *static_cast<double *>(argv[0]) = double();
+}
+return;
+}
+}
+{
+}
+{
+}
+// generate_Ret
+if (argv[0]) {
+    *static_cast<double *>(argv[0]) = s.v2_4;
+}
+return;
+}
+ },{ 16, 0, [](QV4::ExecutableCompilationUnit *contextUnit, QMetaType *argTypes) {
+    struct { QV4::ExecutableCompilationUnit *compilationUnit; } c { contextUnit };
+    const auto *aotContext = &c;
+    Q_UNUSED(aotContext);
+    argTypes[0] = QMetaType::fromType<double>();
+}, 
+    [](const QQmlPrivate::AOTCompiledContext *aotContext, void **argv) {
+Q_UNUSED(aotContext)
+Q_UNUSED(argv)
+// expression for bottomMargin at line 69, column 13
+struct Storage : QQmlPrivate::AOTTrackedLocalsStorage {
+Storage(const QQmlPrivate::AOTCompiledContext *ctxt, void **a)   : aotContext(ctxt), argv(a) {}
+void markObjects(QV4::MarkStack *markStack) const final {    Q_UNUSED(markStack);
+    aotContext->mark(v2_2, markStack);
+}
+const QQmlPrivate::AOTCompiledContext *aotContext;
+void **argv;
+QObject *v2_2 = nullptr;
+double v2_4;
+};
+Storage s(aotContext, argv);
+aotContext->setLocals(&s);
+{
+}
+// generate_GetLookup
+#ifndef QT_NO_DEBUG
+aotContext->setInstructionPointer(4);
+#endif
+while (!aotContext->loadSingletonLookup(41, &s.v2_2)) {
+#ifdef QT_NO_DEBUG
+aotContext->setInstructionPointer(4);
+#endif
+aotContext->initLoadSingletonLookup(41, 4);
+if (aotContext->engine->hasError()) {
+aotContext->setReturnValueUndefined();
+if (argv[0]) {
+    *static_cast<double *>(argv[0]) = double();
+}
+return;
+}
+}
+{
+}
+// generate_GetLookup
+#ifndef QT_NO_DEBUG
+aotContext->setInstructionPointer(6);
+#endif
+while (!aotContext->getObjectLookup(42, s.v2_2, &s.v2_4)) {
+#ifdef QT_NO_DEBUG
+aotContext->setInstructionPointer(6);
+#endif
+aotContext->initGetObjectLookup(42, s.v2_2);
+if (aotContext->engine->hasError()) {
+aotContext->setReturnValueUndefined();
+if (argv[0]) {
+    *static_cast<double *>(argv[0]) = double();
+}
+return;
+}
+}
+{
+}
+{
+}
+// generate_Ret
+if (argv[0]) {
+    *static_cast<double *>(argv[0]) = s.v2_4;
 }
 return;
 }

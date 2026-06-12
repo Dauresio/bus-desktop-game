@@ -1,11 +1,11 @@
 --resource
-C:/Projects/_busJamPuzzle/build/.qt/rcc/qmake_BusJamPuzzle.qrc
+C:/Projects/bus-desktop-game/build/.qt/rcc/qmake_BusJamPuzzle.qrc
 --resource
-C:/Projects/_busJamPuzzle/build/.qt/rcc/BusJamPuzzle_raw_qml_0.qrc
+C:/Projects/bus-desktop-game/build/.qt/rcc/BusJamPuzzle_raw_qml_0.qrc
 --resource
-C:/Projects/_busJamPuzzle/build/.qt/rcc/BusJamPuzzle_raw_res_0.qrc
+C:/Projects/bus-desktop-game/build/.qt/rcc/BusJamPuzzle_raw_res_0.qrc
 --resource
-C:/Projects/_busJamPuzzle/build/.qt/rcc/level_data.qrc
+C:/Projects/bus-desktop-game/build/.qt/rcc/level_data.qrc
 /BusJamPuzzle/qml/main.qml
 /BusJamPuzzle/qml/screens/MainMenuScreen.qml
 /BusJamPuzzle/qml/screens/LevelSelectScreen.qml

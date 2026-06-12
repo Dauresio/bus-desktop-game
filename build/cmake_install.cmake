@@ -1,4 +1,4 @@
-# Install script for directory: C:/Projects/_busJamPuzzle
+# Install script for directory: C:/Projects/bus-desktop-game
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,7 +38,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Projects/_busJamPuzzle/build/BusJamPuzzle.exe")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Projects/bus-desktop-game/build/BusJamPuzzle.exe")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/BusJamPuzzle.exe" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/BusJamPuzzle.exe")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -48,7 +48,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("C:/Projects/_busJamPuzzle/build/.qt/deploy_BusJamPuzzle_fafbf42a5e.cmake")
+  include("C:/Projects/bus-desktop-game/build/.qt/deploy_BusJamPuzzle_fafbf42a5e.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -66,6 +66,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "C:/Projects/_busJamPuzzle/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Projects/bus-desktop-game/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

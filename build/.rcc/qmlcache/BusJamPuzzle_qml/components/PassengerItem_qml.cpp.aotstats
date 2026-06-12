@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 35,
-                            "durationMicroseconds": 4000,
+                            "durationMicroseconds": 5000,
                             "functionName": "cellSize",
                             "line": 27,
                             "message": ""
@@ -526,7 +526,7 @@
                             "message": ""
                         }
                     ],
-                    "filePath": "C:/Projects/_busJamPuzzle/qml/components/PassengerItem.qml"
+                    "filePath": "C:/Projects/bus-desktop-game/qml/components/PassengerItem.qml"
                 }
             ],
             "moduleId": "BusJamPuzzle(BusJamPuzzle)"

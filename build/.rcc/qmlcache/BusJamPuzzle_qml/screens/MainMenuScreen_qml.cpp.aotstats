@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 16,
-                            "durationMicroseconds": 1000,
+                            "durationMicroseconds": 2000,
                             "functionName": "color",
                             "line": 24,
                             "message": ""
@@ -198,12 +198,12 @@
                             "message": "Cannot access value for name index"
                         },
                         {
-                            "codegenResult": 2,
+                            "codegenResult": 0,
                             "column": 18,
-                            "durationMicroseconds": 2000,
+                            "durationMicroseconds": 3000,
                             "functionName": "spacing",
                             "line": 93,
-                            "message": "Cannot load property spaceLG from Sizes."
+                            "message": ""
                         },
                         {
                             "codegenResult": 0,
@@ -214,12 +214,12 @@
                             "message": ""
                         },
                         {
-                            "codegenResult": 2,
+                            "codegenResult": 0,
                             "column": 22,
                             "durationMicroseconds": 0,
                             "functionName": "spacing",
                             "line": 98,
-                            "message": "Cannot load property spaceXS from Sizes."
+                            "message": ""
                         },
                         {
                             "codegenResult": 0,
@@ -334,12 +334,12 @@
                             "message": ""
                         },
                         {
-                            "codegenResult": 2,
+                            "codegenResult": 0,
                             "column": 22,
                             "durationMicroseconds": 0,
                             "functionName": "spacing",
                             "line": 140,
-                            "message": "Cannot load property spaceMD from Sizes."
+                            "message": ""
                         },
                         {
                             "codegenResult": 0,
@@ -483,7 +483,7 @@
                             "durationMicroseconds": 0,
                             "functionName": "radius",
                             "line": 186,
-                            "message": "Cannot load property radius from (component in C:/Projects/_busJamPuzzle/qml/screens/MainMenuScreen.qml)::parent with type QQuickItem."
+                            "message": "Cannot load property radius from (component in C:/Projects/bus-desktop-game/qml/screens/MainMenuScreen.qml)::parent with type QQuickItem."
                         },
                         {
                             "codegenResult": 0,
@@ -507,7 +507,7 @@
                             "durationMicroseconds": 0,
                             "functionName": "text",
                             "line": 193,
-                            "message": "Cannot load property text from (component in C:/Projects/_busJamPuzzle/qml/screens/MainMenuScreen.qml)::parent with type QQuickItem."
+                            "message": "Cannot load property text from (component in C:/Projects/bus-desktop-game/qml/screens/MainMenuScreen.qml)::parent with type QQuickItem."
                         },
                         {
                             "codegenResult": 0,
@@ -547,7 +547,7 @@
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
                             "line": 200,
-                            "message": "Type (component in C:/Projects/_busJamPuzzle/qml/screens/MainMenuScreen.qml)::parent with type QQuickItem does not have a property clicked for calling"
+                            "message": "Type (component in C:/Projects/bus-desktop-game/qml/screens/MainMenuScreen.qml)::parent with type QQuickItem does not have a property clicked for calling"
                         },
                         {
                             "codegenResult": 0,
@@ -590,7 +590,7 @@
                             "message": ""
                         }
                     ],
-                    "filePath": "C:/Projects/_busJamPuzzle/qml/screens/MainMenuScreen.qml"
+                    "filePath": "C:/Projects/bus-desktop-game/qml/screens/MainMenuScreen.qml"
                 }
             ],
             "moduleId": "BusJamPuzzle(BusJamPuzzle)"

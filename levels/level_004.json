@@ -8,29 +8,33 @@
   "timeLimitSecs": 0,
 
   "buses": [
-    { "id": 0, "color": "Blue", "capacity": 4, "row": 3, "col": 0, "direction": "Right" },
-    { "id": 1, "color": "Red",  "capacity": 4, "row": 3, "col": 2, "direction": "Right" },
-    { "id": 2, "color": "Green","capacity": 4, "row": 6, "col": 0, "direction": "Right" }
+    { "id": 0, "color": "Blue",   "capacity": 4, "row": 3, "col": 0, "direction": "Right" },
+    { "id": 1, "color": "Red",    "capacity": 4, "row": 3, "col": 2, "direction": "Up" },
+    { "id": 2, "color": "Green",  "capacity": 4, "row": 6, "col": 0, "direction": "Right" },
+    { "id": 3, "color": "Purple", "capacity": 4, "row": 7, "col": 0, "direction": "Right" }
   ],
 
   "passengers": [
-    { "id": 0, "color": "Blue",  "row": 3, "col": 5 },
-    { "id": 1, "color": "Blue",  "row": 3, "col": 6 },
-    { "id": 2, "color": "Blue",  "row": 4, "col": 5 },
-    { "id": 3, "color": "Blue",  "row": 4, "col": 6 },
-    { "id": 4, "color": "Red",   "row": 2, "col": 5 },
-    { "id": 5, "color": "Red",   "row": 2, "col": 6 },
-    { "id": 6, "color": "Red",   "row": 5, "col": 5 },
-    { "id": 7, "color": "Red",   "row": 5, "col": 6 },
-    { "id": 8, "color": "Green", "row": 6, "col": 4 },
-    { "id": 9, "color": "Green", "row": 6, "col": 5 },
-    { "id":10, "color": "Green", "row": 6, "col": 6 },
-    { "id":11, "color": "Green", "row": 7, "col": 5 }
+    { "id": 0,  "color": "Blue",   "row": 3, "col": 5 },
+    { "id": 1,  "color": "Blue",   "row": 3, "col": 6 },
+    { "id": 2,  "color": "Blue",   "row": 4, "col": 5 },
+    { "id": 3,  "color": "Blue",   "row": 4, "col": 6 },
+    { "id": 4,  "color": "Red",    "row": 2, "col": 5 },
+    { "id": 5,  "color": "Red",    "row": 2, "col": 6 },
+    { "id": 6,  "color": "Red",    "row": 5, "col": 5 },
+    { "id": 7,  "color": "Red",    "row": 5, "col": 6 },
+    { "id": 8,  "color": "Green",  "row": 6, "col": 3 },
+    { "id": 9,  "color": "Green",  "row": 6, "col": 4 },
+    { "id": 10, "color": "Green",  "row": 6, "col": 5 },
+    { "id": 11, "color": "Green",  "row": 6, "col": 6 },
+    { "id": 12, "color": "Purple", "row": 7, "col": 3 },
+    { "id": 13, "color": "Purple", "row": 7, "col": 4 },
+    { "id": 14, "color": "Purple", "row": 7, "col": 5 }
   ],
 
   "platforms": [
     { "id": 0, "color": "Blue",   "row": 3, "col": 7, "exitDirection": "Right" },
-    { "id": 1, "color": "Red",    "row": 0, "col": 7, "exitDirection": "Right" },
+    { "id": 1, "color": "Red",    "row": 0, "col": 2, "exitDirection": "Up" },
     { "id": 2, "color": "Green",  "row": 6, "col": 7, "exitDirection": "Right" },
     { "id": 3, "color": "Purple", "row": 7, "col": 7, "exitDirection": "Right" }
   ]

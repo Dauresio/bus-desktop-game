@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 38,
-                            "durationMicroseconds": 9000,
+                            "durationMicroseconds": 2000,
                             "functionName": "busColors",
                             "line": 58,
                             "message": ""
@@ -86,7 +86,7 @@
                             "message": "Functions without type annotations won't be compiled"
                         }
                     ],
-                    "filePath": "C:/Projects/_busJamPuzzle/qml/style/Theme.qml"
+                    "filePath": "C:/Projects/bus-desktop-game/qml/style/Theme.qml"
                 }
             ],
             "moduleId": "BusJamPuzzle(BusJamPuzzle)"

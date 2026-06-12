@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 2,
                             "column": 39,
-                            "durationMicroseconds": 2000,
+                            "durationMicroseconds": 1000,
                             "functionName": "busLength",
                             "line": 41,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
@@ -299,7 +299,7 @@
                             "durationMicroseconds": 0,
                             "functionName": "color",
                             "line": 110,
-                            "message": "Cannot load property color from (component in C:/Projects/_busJamPuzzle/qml/components/BusItem.qml)::parent with type QQuickItem."
+                            "message": "Cannot load property color from (component in C:/Projects/bus-desktop-game/qml/components/BusItem.qml)::parent with type QQuickItem."
                         },
                         {
                             "codegenResult": 0,
@@ -867,7 +867,7 @@
                             "durationMicroseconds": 0,
                             "functionName": "radius",
                             "line": 256,
-                            "message": "Cannot load property radius from (component in C:/Projects/_busJamPuzzle/qml/components/BusItem.qml)::parent with type QQuickItem."
+                            "message": "Cannot load property radius from (component in C:/Projects/bus-desktop-game/qml/components/BusItem.qml)::parent with type QQuickItem."
                         },
                         {
                             "codegenResult": 0,
@@ -1016,7 +1016,7 @@
                         {
                             "codegenResult": 0,
                             "column": 69,
-                            "durationMicroseconds": 0,
+                            "durationMicroseconds": 2000,
                             "functionName": "type",
                             "line": 328,
                             "message": ""
@@ -1038,7 +1038,7 @@
                             "message": ""
                         }
                     ],
-                    "filePath": "C:/Projects/_busJamPuzzle/qml/components/BusItem.qml"
+                    "filePath": "C:/Projects/bus-desktop-game/qml/components/BusItem.qml"
                 }
             ],
             "moduleId": "BusJamPuzzle(BusJamPuzzle)"

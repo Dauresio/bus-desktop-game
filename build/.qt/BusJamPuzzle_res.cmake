@@ -1,11 +1,11 @@
 
 set(target "BusJamPuzzle")
-set(working_dir "C:/Projects/_busJamPuzzle")
+set(working_dir "C:/Projects/bus-desktop-game")
 set(src_and_dest_list
-    "C:/Projects/_busJamPuzzle/qml/style/qmldir"
-    "C:/Projects/_busJamPuzzle/build/BusJamPuzzle/qml/style/qmldir"
-    "C:/Projects/_busJamPuzzle/qml/components/qmldir"
-    "C:/Projects/_busJamPuzzle/build/BusJamPuzzle/qml/components/qmldir"
+    "C:/Projects/bus-desktop-game/qml/style/qmldir"
+    "C:/Projects/bus-desktop-game/build/BusJamPuzzle/qml/style/qmldir"
+    "C:/Projects/bus-desktop-game/qml/components/qmldir"
+    "C:/Projects/bus-desktop-game/build/BusJamPuzzle/qml/components/qmldir"
 
 )
-set(timestamp_file "C:/Projects/_busJamPuzzle/build/.qt/BusJamPuzzle_res.txt")
+set(timestamp_file "C:/Projects/bus-desktop-game/build/.qt/BusJamPuzzle_res.txt")

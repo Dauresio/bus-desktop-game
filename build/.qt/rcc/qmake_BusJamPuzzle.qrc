@@ -1,6 +1,6 @@
 <RCC>
   <qresource prefix="/BusJamPuzzle">
-    <file alias="qmldir">C:/Projects/_busJamPuzzle/build/BusJamPuzzle/qmldir</file>
+    <file alias="qmldir">C:/Projects/bus-desktop-game/build/BusJamPuzzle/qmldir</file>
   </qresource>
 </RCC>
 

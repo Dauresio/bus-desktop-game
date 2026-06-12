@@ -1,9 +1,9 @@
-C:/Projects/_busJamPuzzle/build/BusJamDomain_autogen/GCRDZAAASK/moc_PlatformListModel.cpp: C:/Projects/_busJamPuzzle/src/engine/PlatformListModel.h \
-  C:/Projects/_busJamPuzzle/build/BusJamDomain_autogen/moc_predefs.h \
-  C:/Projects/_busJamPuzzle/src/model/Board.h \
-  C:/Projects/_busJamPuzzle/src/model/Bus.h \
-  C:/Projects/_busJamPuzzle/src/model/Passenger.h \
-  C:/Projects/_busJamPuzzle/src/model/Platform.h \
+C:/Projects/bus-desktop-game/build/BusJamDomain_autogen/GCRDZAAASK/moc_PlatformListModel.cpp: C:/Projects/bus-desktop-game/src/engine/PlatformListModel.h \
+  C:/Projects/bus-desktop-game/build/BusJamDomain_autogen/moc_predefs.h \
+  C:/Projects/bus-desktop-game/src/model/Board.h \
+  C:/Projects/bus-desktop-game/src/model/Bus.h \
+  C:/Projects/bus-desktop-game/src/model/Passenger.h \
+  C:/Projects/bus-desktop-game/src/model/Platform.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/QAbstractListModel \
   C:/Qt/6.11.0/mingw_64/include/QtCore/QHash \
   C:/Qt/6.11.0/mingw_64/include/QtCore/QPoint \

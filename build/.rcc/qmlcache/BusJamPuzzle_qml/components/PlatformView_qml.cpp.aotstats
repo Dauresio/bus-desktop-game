@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 38,
-                            "durationMicroseconds": 8000,
+                            "durationMicroseconds": 5000,
                             "functionName": "cellSize",
                             "line": 24,
                             "message": ""
@@ -115,7 +115,7 @@
                             "durationMicroseconds": 0,
                             "functionName": "radius",
                             "line": 56,
-                            "message": "Cannot load property radius from (component in C:/Projects/_busJamPuzzle/qml/components/PlatformView.qml)::parent with type QQuickItem."
+                            "message": "Cannot load property radius from (component in C:/Projects/bus-desktop-game/qml/components/PlatformView.qml)::parent with type QQuickItem."
                         },
                         {
                             "codegenResult": 2,
@@ -398,7 +398,7 @@
                             "message": ""
                         }
                     ],
-                    "filePath": "C:/Projects/_busJamPuzzle/qml/components/PlatformView.qml"
+                    "filePath": "C:/Projects/bus-desktop-game/qml/components/PlatformView.qml"
                 }
             ],
             "moduleId": "BusJamPuzzle(BusJamPuzzle)"

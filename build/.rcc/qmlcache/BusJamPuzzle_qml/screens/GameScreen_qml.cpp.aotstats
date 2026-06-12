@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 0,
                             "column": 16,
-                            "durationMicroseconds": 1000,
+                            "durationMicroseconds": 2000,
                             "functionName": "color",
                             "line": 50,
                             "message": ""
@@ -232,7 +232,7 @@
                         {
                             "codegenResult": 0,
                             "column": 18,
-                            "durationMicroseconds": 4000,
+                            "durationMicroseconds": 5000,
                             "functionName": "spacing",
                             "line": 98,
                             "message": ""
@@ -272,7 +272,7 @@
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 0,
+                            "durationMicroseconds": 3000,
                             "functionName": "margins",
                             "line": 96,
                             "message": ""
@@ -411,7 +411,7 @@
                             "durationMicroseconds": 0,
                             "functionName": "radius",
                             "line": 135,
-                            "message": "Cannot load property radius from (component in C:/Projects/_busJamPuzzle/qml/screens/GameScreen.qml)::parent with type QQuickItem."
+                            "message": "Cannot load property radius from (component in C:/Projects/bus-desktop-game/qml/screens/GameScreen.qml)::parent with type QQuickItem."
                         },
                         {
                             "codegenResult": 0,
@@ -1080,7 +1080,7 @@
                         {
                             "codegenResult": 0,
                             "column": 34,
-                            "durationMicroseconds": 0,
+                            "durationMicroseconds": 1000,
                             "functionName": "bgColor",
                             "line": 389,
                             "message": ""
@@ -1163,7 +1163,7 @@
                             "durationMicroseconds": 0,
                             "functionName": "radius",
                             "line": 401,
-                            "message": "Cannot load property radius from (component in C:/Projects/_busJamPuzzle/qml/screens/GameScreen.qml)::parent with type QQuickItem."
+                            "message": "Cannot load property radius from (component in C:/Projects/bus-desktop-game/qml/screens/GameScreen.qml)::parent with type QQuickItem."
                         },
                         {
                             "codegenResult": 0,
@@ -1187,7 +1187,7 @@
                             "durationMicroseconds": 0,
                             "functionName": "text",
                             "line": 409,
-                            "message": "Cannot load property text from (component in C:/Projects/_busJamPuzzle/qml/screens/GameScreen.qml)::parent with type QQuickItem."
+                            "message": "Cannot load property text from (component in C:/Projects/bus-desktop-game/qml/screens/GameScreen.qml)::parent with type QQuickItem."
                         },
                         {
                             "codegenResult": 0,
@@ -1227,7 +1227,7 @@
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
                             "line": 416,
-                            "message": "Type (component in C:/Projects/_busJamPuzzle/qml/screens/GameScreen.qml)::parent with type QQuickItem does not have a property clicked for calling"
+                            "message": "Type (component in C:/Projects/bus-desktop-game/qml/screens/GameScreen.qml)::parent with type QQuickItem does not have a property clicked for calling"
                         },
                         {
                             "codegenResult": 0,
@@ -1243,7 +1243,7 @@
                             "durationMicroseconds": 0,
                             "functionName": "onHoveredChanged",
                             "line": 422,
-                            "message": "Type (component in C:/Projects/_busJamPuzzle/qml/screens/GameScreen.qml)::parent with type QQuickItem does not have a property containsMouse for writing"
+                            "message": "Type (component in C:/Projects/bus-desktop-game/qml/screens/GameScreen.qml)::parent with type QQuickItem does not have a property containsMouse for writing"
                         },
                         {
                             "codegenResult": 0,
@@ -1259,7 +1259,7 @@
                             "durationMicroseconds": 0,
                             "functionName": "text",
                             "line": 433,
-                            "message": "Cannot load property icon from (component in C:/Projects/_busJamPuzzle/qml/screens/GameScreen.qml)::parent with type QQuickItem."
+                            "message": "Cannot load property icon from (component in C:/Projects/bus-desktop-game/qml/screens/GameScreen.qml)::parent with type QQuickItem."
                         },
                         {
                             "codegenResult": 0,
@@ -1334,7 +1334,7 @@
                             "message": ""
                         }
                     ],
-                    "filePath": "C:/Projects/_busJamPuzzle/qml/screens/GameScreen.qml"
+                    "filePath": "C:/Projects/bus-desktop-game/qml/screens/GameScreen.qml"
                 }
             ],
             "moduleId": "BusJamPuzzle(BusJamPuzzle)"

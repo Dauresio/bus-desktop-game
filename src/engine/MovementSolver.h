@@ -298,7 +298,7 @@ private:
     [[nodiscard]] static bool isCellPassable(const Board&    board,
                                               QPoint          pos,
                                               const Bus&      bus,
-                                              const Platform* targetPlat) noexcept;
+                                              const Platform* targetPlat);
 
     /**
      * @brief Encontra a plataforma destino de um Bus no Board.

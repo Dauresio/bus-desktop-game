@@ -22,7 +22,7 @@
       "capacity": 6,
       "row": 3,
       "col": 2,
-      "direction": "Right"
+      "direction": "Up"
     },
     {
       "id": 2,
@@ -69,8 +69,8 @@
       "id": 1,
       "color": "Green",
       "row": 0,
-      "col": 7,
-      "exitDirection": "Right"
+      "col": 2,
+      "exitDirection": "Up"
     },
     {
       "id": 2,
